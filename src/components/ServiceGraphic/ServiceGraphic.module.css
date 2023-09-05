@@ -1,0 +1,33 @@
+/** ServiceGraphic.tsx **/
+
+.parent {
+    display: flex;
+}
+
+.circle {
+    background-color: red;
+    width: 7em;
+    height: 7em;
+    border-radius: 100em;
+}
+
+.graphic {
+    width: 5em;
+    margin-top: 0.8em;
+    margin-left: 0.9em;
+}
+
+.headingContainer, .textContainer {
+    width: 15em;
+    margin-left: 1.5em;
+    margin-top: -0.3em;
+}
+
+.heading {
+    font-family: "TTInterfaces-Bold", sans-serif;
+}
+
+.text {
+    margin-top: -0.5em;
+    font-size: 0.8em;
+}

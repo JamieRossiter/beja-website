@@ -1,0 +1,45 @@
+/** Profile.tsx **/
+
+.parent {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: center;
+}
+
+.copyContainer {
+    margin-top: 1.8em;
+    padding-left: 2em;
+    width: 25em;
+}
+
+.skillsContainer {
+    display: flex;
+}
+
+.profileImg {
+    border-radius: 100em;
+    width: 15em;
+}
+
+.header {
+    font-size: 1.5em;
+}
+
+.subheader {
+    font-size: 0.6em;
+}
+
+.text {
+    margin-top: -1em;
+    font-size: 0.8em;
+    width: 30em;
+}
+
+.skill {
+    margin-right: 0.5em;
+}
+
+.header, .subheader {
+    font-family: "TTInterfaces-Bold", sans-serif;
+}

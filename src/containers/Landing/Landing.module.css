@@ -1,0 +1,29 @@
+/** Landing **/
+
+.parent {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.container {
+    width: 50%;
+    display: inline-block;
+}
+
+.container .text {
+    margin-left: 5.4em;
+    text-align: left;
+    width: 130%;
+}
+
+.logo {
+    margin-top: 5em;
+    width: 22em;
+    object-fit: contain; 
+}
+
+.buttonContainer {
+    margin-left: 5.5em;
+    margin-top: 3em;
+}

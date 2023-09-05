@@ -1,0 +1,18 @@
+/* Banner.tsx */
+
+.container {
+    background-color: #FF0064CC;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-family: "TTInterfaces-Bold", sans-serif;
+    font-size: 1.7em;
+    color: white;
+}
+
+.buttonContainer {
+    margin-left: 4em;
+    margin-top: 0.5em;
+}

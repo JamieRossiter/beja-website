@@ -1,0 +1,57 @@
+/* PackageGraphic.tsx */
+
+.graphicContainer {
+    background-color: white;
+    width: 18em;
+    padding-bottom: 0.1em;
+    border-radius: 2em;
+}
+
+.header {
+    color: white;
+    font-family: "TTInterfaces-Bold", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    padding: 2.1em;
+    font-size: 0.9em;
+}
+
+.inclusionListContainer {
+    margin-top: -1em;
+}
+
+.inclusionListHeader {
+    font-family: "TTInterfaces-Bold", sans-serif;
+    text-align: center;
+}
+
+.inclusionList {
+    list-style: none;
+    text-align: center;
+    padding-left: 0em;
+    margin-top: -0.5em;
+}
+
+.inclusionList li {
+    font-size: 0.9em;
+    padding-top: 0.1em;
+    padding-bottom: 0.2em;
+}
+
+.costHeader {
+    font-family: "TTInterfaces-Bold", sans-serif;
+    font-size: 0.7em;
+    text-align: center;
+    margin-bottom: -1.9em;
+}
+
+.cost {
+    font-family: "TTInterfaces-Bold", sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,55 @@
+/* Contact.tsx */
+
+.parent {
+    margin-bottom: 6em;
+    margin-top: 6em;
+}
+
+.headerContainer {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.inputContainer {
+    text-align: center;
+}
+
+.nameInputContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.3em;
+}
+
+.emailInputContainer {
+    margin-bottom: 1.3em;
+}
+
+.buttonContainer div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+.header {
+    font-family: "TTInterfaces-Bold";
+    font-size: 2em;
+}
+
+.subheader {
+    font-size: 1.5em;
+}
+
+.nameInputContainer input {
+    width: 12em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.emailInputContainer input {
+    width: 27em;
+}
+
+.tellUsInputContainer textarea {
+    width: 27em;
+    padding-bottom: 3em;
+}

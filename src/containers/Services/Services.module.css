@@ -1,0 +1,20 @@
+/** Services.tsx **/
+
+.superParent {
+    padding-top: 2em;
+    background-color: #D9D9D933;
+    padding-bottom: 2em;
+}
+
+.parent {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.serviceGraphicContainer {
+    margin-left: 2em;
+    margin-right: 2em;
+}

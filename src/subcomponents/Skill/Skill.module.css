@@ -1,0 +1,16 @@
+/** Skill.tsx **/
+
+.parent {
+    border-radius: 2em;
+    border-style: solid;
+    width: 8em;
+    height: 1.6em;
+}
+
+.text {
+    font-family: "TTInterfaces-Bold";
+    text-align: center;
+    line-height: 0;
+    margin-top: 1.2em;
+    font-size: 0.7em;
+}

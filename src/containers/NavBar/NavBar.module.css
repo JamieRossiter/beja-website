@@ -1,0 +1,21 @@
+/** NavBar **/
+
+.pages {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2em;
+}
+
+.pages a {
+    margin-left: 2em;
+    margin-right: 2em;
+    cursor: pointer;
+    font-size: 0.8em;
+    color: black;
+    transition: ease 0.2s;
+}
+
+.pages a:hover {
+    color: grey;
+    transition: ease 0.2s;
+}

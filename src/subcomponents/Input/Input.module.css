@@ -1,0 +1,24 @@
+/* Input.tsx */
+
+.input, .textarea {
+    border-radius: 2em;
+    border: 0em;
+    background-color: #D9D9D9;
+    padding-left: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.3em;
+}
+
+.textarea {
+    padding-top: 1.5em;
+}
+
+.input::placeholder, .textarea::placeholder {
+    color: white;
+    font-family: "TTInterfaces-Bold";
+}
+
+.input:focus, .textarea:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 0.1em #FFBF4F;
+}

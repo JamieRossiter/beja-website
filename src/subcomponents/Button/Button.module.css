@@ -1,0 +1,16 @@
+/* Button.tsx */
+
+.container {
+    height: 2em;
+    width: 10em;
+    background-color: black;
+    color: white;
+    border-radius: 100em;
+    padding-bottom: 0.3em;
+}
+
+.container .text {
+    line-height: 2.4em;
+    text-align: center;
+    font-family: "TTInterfaces-Medium", sans-serif;
+}
