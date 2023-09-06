@@ -1,0 +1,43 @@
+/* Question.tsx */
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.questionTextContainer, .answerTextContainer {
+    width: 35em;
+}
+
+.answerTextContainer {
+    margin-top: -0.5em;
+    text-align: justify;
+}
+
+.questionIcon {
+    background-color: white;
+    border-radius: 100em;
+    width: 1em;
+    height: 1em;
+    margin-top: 1.1em;
+    margin-right: 1em;
+}
+
+.questionSymbol {
+    font-size: 0.65em;
+    text-align: center;
+    line-height: 0em;
+    margin-top: 0.8em;
+    color: #FFBF4F;
+    font-family: "TTInterfaces-Bold", sans-serif;
+}
+
+.questionText {
+    color: white;
+    font-family: "TTInterfaces-Bold", sans-serif;
+}
+
+.answerText {
+    font-size: 0.7em;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.container {
+    background-color: black;
+    padding-left: 2em;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    width: 7em;
+}
+
+.text {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    font-family: "TTInterfaces-Bold", sans-serif;
+}

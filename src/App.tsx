@@ -6,6 +6,7 @@ import { Services } from "./containers/Services/Services";
 import { Profile } from "./components/Profile/Profile";
 import { Packages } from "./containers/Packages/Packages";
 import { Contact } from "./containers/Contact/Contact";
+import { FAQs } from "./containers/FAQs/FAQs";
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
       </div>
       <div className={styles.contactContainer}>
         <Contact />
+      </div>
+      <div className={styles.faqsContainer}>
+        <FAQs />
       </div>
     </>
   );
