@@ -1,0 +1,29 @@
+/* FooterGraphic.tsx */
+
+.container {
+    width: 8em;
+    height: 8em;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.image {
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 835px) {
+
+    .container {
+        margin-top: 1.5em;
+        width: 3em;
+        height: 3em;
+    }
+
+    .image {
+        width: 2em;
+        margin-top: 0.9em;
+    }
+
+}

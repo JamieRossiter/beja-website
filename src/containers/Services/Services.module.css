@@ -18,3 +18,30 @@
     margin-left: 2em;
     margin-right: 2em;
 }
+
+@media only screen and (max-width: 1232px) {
+    
+    .parent {
+        width: 25em;
+        flex-direction: column;
+        padding-top: 0em;
+        padding-bottom: 0em;
+        margin: auto;
+    }
+
+    .serviceGraphicContainer {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+}
+
+@media only screen and (max-width: 666px) {
+    
+    .parent {
+        width: 100%;
+    }
+
+}

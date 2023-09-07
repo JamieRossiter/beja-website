@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import "./index.css";
 
 import { NavBar } from "./containers/NavBar/NavBar";
 import { Landing } from "./containers/Landing/Landing";
@@ -7,13 +8,15 @@ import { Profile } from "./components/Profile/Profile";
 import { Packages } from "./containers/Packages/Packages";
 import { Contact } from "./containers/Contact/Contact";
 import { FAQs } from "./containers/FAQs/FAQs";
+import { Footer } from "./containers/Footer/Footer";
+import { PortfolioCarousel } from "./containers/PortfolioCarousel/PortfolioCarousel";
 
 function App() {
   return (
     <>
-      <div className={styles.navBarContainer}>
+      {/* <div className={styles.navBarContainer}>
         <NavBar />
-      </div>
+      </div> */}
       <div className={styles.landingContainer}>
         <Landing />
       </div>
@@ -42,6 +45,9 @@ function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </Profile>
       </div>
+      <div className={styles.portfolioContainer}>
+        <PortfolioCarousel />
+      </div>
       <div className={styles.packagesContainer}>
         <Packages />
       </div>
@@ -50,6 +56,9 @@ function App() {
       </div>
       <div className={styles.faqsContainer}>
         <FAQs />
+      </div>
+      <div className={styles.footerContainer}>
+        <Footer />
       </div>
     </>
   );

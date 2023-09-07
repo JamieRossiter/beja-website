@@ -24,20 +24,31 @@
 }
 
 .questionSymbol {
-    font-size: 0.65em;
+    font-size: 0.8em;
     text-align: center;
-    line-height: 0em;
-    margin-top: 0.8em;
     color: #FFBF4F;
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
 }
 
 .questionText {
     color: white;
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
 }
 
 .answerText {
     font-size: 0.7em;
     color: white;
+}
+
+@media only screen and (max-width: 936px){
+
+    .parent {
+        width: 80%;
+        margin: auto;
+    }
+
+    .questionTextContainer, .answerTextContainer {
+        width: 100%;
+    }
+
 }

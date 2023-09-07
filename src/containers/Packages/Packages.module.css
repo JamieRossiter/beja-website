@@ -1,9 +1,24 @@
 /** Packages.tsx **/
 
-.packageContainer {
+.packagesContainer {
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
     background-color: #0150E8;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 930px) {
+
+    .packagesContainer {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .package {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

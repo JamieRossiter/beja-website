@@ -1,0 +1,58 @@
+/* Footer.tsx */
+
+.parent {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textSocialsContainer {
+    margin-left: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footerGraphicsContainer {
+    display: flex;
+    margin-top: 3em;
+    margin-right: 3em;
+}
+
+.footerGraphic {
+    margin-left: 2em;
+}
+
+.text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.social {
+    margin-right: 1em;
+}
+
+@media only screen and (max-width: 691px) {
+
+    .parent {
+        flex-direction: column;
+        padding-bottom: 4em;
+    }
+
+    .textSocialsContainer {
+        margin-left: 0em;
+        text-align: center;
+    }
+
+    .footerGraphicsContainer {
+        margin-top: -3em;
+        justify-content: space-evenly;
+        margin-left: 1em;
+    }
+
+    .socialsContainer {
+        text-align: center;
+        margin-left: 1em;
+    }
+
+}

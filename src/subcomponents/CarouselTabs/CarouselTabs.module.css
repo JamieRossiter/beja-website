@@ -1,0 +1,24 @@
+/* CarouselTabs.tsx */
+
+.container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.tabActive, .tabInactive {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: #0150E8;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 100em;  
+}
+
+.tabActive {
+    opacity: 1;
+}
+
+.tabInactive {
+    opacity: 0.2;
+}

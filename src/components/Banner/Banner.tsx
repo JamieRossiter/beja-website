@@ -5,7 +5,9 @@ export const Banner = () => {
     return(
         <>
             <div className={styles.container}>
-                <p className={styles.text}>We offer branding and identity too</p>
+                <div className={styles.textContainer}>
+                    <p className={styles.text}>We offer branding and identity too</p>
+                </div>
                 <div className={styles.buttonContainer}>
                     <Button text="Enquire Now" />
                 </div>

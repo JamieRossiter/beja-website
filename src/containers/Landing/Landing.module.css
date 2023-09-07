@@ -27,3 +27,22 @@
     margin-left: 5.5em;
     margin-top: 3em;
 }
+
+@media only screen and (max-width: 700px)   {
+    
+    .logo {
+        text-align: center;
+        width: 200%;
+    }
+
+    .container .text {
+        margin-left: 0em;
+        font-size: 0.8em;
+        width: 200%;
+    }
+
+    .buttonContainer {
+        margin-left: 0em;
+    }
+
+}

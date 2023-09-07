@@ -5,11 +5,12 @@
     width: 18em;
     padding-bottom: 0.1em;
     border-radius: 2em;
+    height: 22em;
 }
 
 .header {
     color: white;
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
     font-size: 1.5em;
     text-align: center;
 }
@@ -25,7 +26,7 @@
 }
 
 .inclusionListHeader {
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -43,15 +44,43 @@
 }
 
 .costHeader {
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
     font-size: 0.7em;
     text-align: center;
     margin-bottom: -1.9em;
 }
 
 .cost {
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 930px) {
+
+    .graphicContainer {
+        margin-top: -1em;
+        width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    .description {
+        font-size: 0.6em;
+    }
+
+    .inclusionList li {
+        font-size: 0.6em;
+    }
+
+    .graphicContainer {
+        width: 80%;
+        height: 100%;
+    }
+
 }

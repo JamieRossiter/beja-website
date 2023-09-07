@@ -4,8 +4,10 @@ export const Question = (props: { question: string, answer: string }) => {
     return(
         <>
             <div className={styles.parent}>
-                <div className={styles.questionIcon}>
-                    <p className={styles.questionSymbol}>Q</p>
+                <div className={styles.questionIconContainer}>
+                    <div className={styles.questionIcon}>
+                        <p className={styles.questionSymbol}>Q</p>
+                    </div>
                 </div>
                 <div className={styles.textContainer}>
                     <div className={styles.questionTextContainer}>

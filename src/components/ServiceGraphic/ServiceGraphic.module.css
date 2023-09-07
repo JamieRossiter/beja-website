@@ -5,7 +5,6 @@
 }
 
 .circle {
-    background-color: red;
     width: 7em;
     height: 7em;
     border-radius: 100em;
@@ -24,10 +23,35 @@
 }
 
 .heading {
-    font-family: "TTInterfaces-Bold", sans-serif;
+    font-weight: bold;
 }
 
 .text {
     margin-top: -0.5em;
     font-size: 0.8em;
+}
+
+@media only screen and (max-width: 666px) {
+    
+    .parent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .graphic {
+        width: 5em;
+        margin-left: 0em
+    }
+
+    .headingContainer, .textContainer {
+        width: 80%;
+        margin-left: 0em;
+        margin: auto;
+    }
+
 }

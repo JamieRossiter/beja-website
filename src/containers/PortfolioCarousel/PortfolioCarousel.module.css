@@ -1,0 +1,41 @@
+/* PortfolioCarousel.tsx */
+
+.parent {
+    text-align: center;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+.imageContainer img {
+    width: 65%;
+}
+
+.enquireNowContainer div {  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textContainer {
+    margin-top: -1em;
+}
+
+.textClient {
+    margin-bottom: 0.5em;
+}
+
+.textProject {
+    font-weight: bold;
+    color: #0150E8;
+
+}
+
+.tabContainer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 811px){
+    .imageContainer img {
+        width: 90%;
+    }
+}
