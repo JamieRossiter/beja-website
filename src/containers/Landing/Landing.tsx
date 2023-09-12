@@ -12,7 +12,6 @@ export const Landing = () => {
                         <Button text="Enquire Now" />
                     </div>
                 </div>
-                <div className={styles.container}></div>
             </div>
         </>
     );

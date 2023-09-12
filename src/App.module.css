@@ -1,6 +1,13 @@
 /** App.tsx **/
 
-.landingContainer {
-    margin-bottom: 6em;
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
 }
-  
+
+@media only screen and (max-width: 700px) {
+    * {
+        font-size: 18px;
+    }
+}

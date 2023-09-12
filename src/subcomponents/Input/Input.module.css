@@ -5,8 +5,8 @@
     border: 0em;
     background-color: #D9D9D9;
     padding-left: 1em;
-    padding-top: 0.4em;
-    padding-bottom: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .textarea {
@@ -15,7 +15,6 @@
 
 .input::placeholder, .textarea::placeholder {
     color: white;
-    font-weight: bold;
 }
 
 .input:focus, .textarea:focus {

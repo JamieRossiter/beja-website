@@ -1,0 +1,87 @@
+.containerClose .rect:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.35em;
+    animation: rotateAndShiftUpRect 0.3s;
+}
+
+.containerClose .rect:nth-child(2) {
+    transform: rotate(135deg);
+    animation: rotateRect 0.3s;
+}
+
+.containerClose .rect:last-child{
+    opacity: 0;
+    animation: fadeOut 0.3s;
+}
+
+.containerOpen .rect:last-child {
+    opacity: 1;
+    animation: fadeIn 0.3s;
+}
+
+.containerOpen .rect:nth-child(1){
+    animation: revertRect 0.3s;
+}
+
+.containerOpen .rect:nth-child(2){
+    animation: revertAndShiftDownRect 0.3s;
+} 
+
+.rect {
+    background-color: black;
+    width: 1.1em;
+    height: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+}
+
+@keyframes rotateRect {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(45deg)}
+}
+
+@keyframes rotateAndShiftUpRect {
+    0% {
+        transform: rotate(0deg);
+        top: 0em;
+    }
+    100% {
+        transform: rotate(135deg);
+        top: 0.35em;
+    }
+}
+
+@keyframes revertRect {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes revertAndShiftDownRect {
+    0% {
+        transform: rotate(135deg);
+        top: 0.35em;
+    }
+    100% {
+        transform: rotate(0deg);
+        top: 0em;
+    }
+}

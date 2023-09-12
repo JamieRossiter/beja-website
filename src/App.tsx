@@ -14,13 +14,13 @@ import { PortfolioCarousel } from "./containers/PortfolioCarousel/PortfolioCarou
 function App() {
   return (
     <>
-      {/* <div className={styles.navBarContainer}>
+      <div className={styles.navBarContainer}>
         <NavBar />
-      </div> */}
+      </div>
       <div className={styles.landingContainer}>
         <Landing />
       </div>
-      <div className={styles.servicesContainer}>
+      <div id="services" className={styles.servicesContainer}>
         <Services />
       </div>
       <div>
@@ -39,19 +39,19 @@ function App() {
           header="And I'm Jamie" 
           subheader="the engineer" 
           color="#0150E8"
-          skills={["Software Engineering", "Game Development"]}
+          skills={["Web Development", "HTML, CSS, JS"]}
           isInverted={true}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          I have a strong foundation in technical web development stemming from my software engineering qualifications. For me, building digital experiences is a passion, not a job.
         </Profile>
       </div>
-      <div className={styles.portfolioContainer}>
+      <div id="portfolio-carousel" className={styles.portfolioContainer}>
         <PortfolioCarousel />
       </div>
-      <div className={styles.packagesContainer}>
+      <div id="packages" className={styles.packagesContainer}>
         <Packages />
       </div>
-      <div className={styles.contactContainer}>
+      <div id="contact" className={styles.contactContainer}>
         <Contact />
       </div>
       <div className={styles.faqsContainer}>
