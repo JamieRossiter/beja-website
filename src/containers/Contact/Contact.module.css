@@ -1,8 +1,8 @@
 /* Contact.tsx */
 
 .parent {
-    padding-bottom: 3em;
-    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-top: 1em;
 }
 
 .headerContainer {
@@ -22,12 +22,6 @@
 
 .emailInputContainer {
     margin-bottom: 1.3em;
-}
-
-.buttonContainer div {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4em;
 }
 
 .header {
@@ -52,6 +46,17 @@
 .tellUsInputContainer textarea {
     width: 27em;
     padding-bottom: 3em;
+}
+
+.buttonParent {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer {
+    margin-top: -1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 @media only screen and (max-width: 700px){
@@ -101,10 +106,18 @@
         padding-bottom: 3em;
     }
 
-    .buttonContainer div {
+    .buttonParent {
+        flex-direction: column;
+        width: 14em;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2em;
+    }
+
+    .buttonContainer {
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
     }
 
 }

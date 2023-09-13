@@ -46,15 +46,15 @@ export const NavBar = () => {
     return(
         <>
             <div className={styles.parent}>
-                <div className={styles.logoContainer}>
+                <div onClick={() => { document.body.scrollTo(0, 0) }} className={styles.logoContainer}>
                     <img className={scrollPosition > 78 && !isBurgerOpen ? styles.logoShow : styles.logoHide} src="./img/beja_logo.png" />
                 </div>
                 <div className={isBurgerOpen || !isBurgerActivated ? styles.containerOpen : styles.containerClose}>
                     <div className={isBurgerOpen ? styles.pagesOpen : styles.pagesClose }>
-                        <a onClick={toggleBurgerMenu} href="#contact" >Contact</a>
-                        <a onClick={toggleBurgerMenu} href="#packages" >Pricing</a>
-                        <a onClick={toggleBurgerMenu} href="#portfolio-carousel" >Folio</a>
-                        <a onClick={toggleBurgerMenu} href="#services" >About</a>
+                        <a onClick={isBurgerOpen ? toggleBurgerMenu : ()=>{}} href="#contact" >Contact</a>
+                        <a onClick={isBurgerOpen ? toggleBurgerMenu : ()=>{}} href="#packages" >Pricing</a>
+                        <a onClick={isBurgerOpen ? toggleBurgerMenu : ()=>{}} href="#portfolio-carousel" >Folio</a>
+                        <a onClick={isBurgerOpen ? toggleBurgerMenu : ()=>{}} href="#services" >About</a>
                     </div>
                 </div>
                 <div className={isBurgerOpen ? styles.burgerContainerOpen : styles.burgerContainerClose}>

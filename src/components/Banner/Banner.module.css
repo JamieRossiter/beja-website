@@ -13,8 +13,9 @@
 }
 
 .buttonContainer {
+    width: 10em;
     margin-left: 4em;
-    margin-top: 0.5em;
+    margin-top: 1.5em;
 }
 
 @media only screen and (max-width: 1061px) {

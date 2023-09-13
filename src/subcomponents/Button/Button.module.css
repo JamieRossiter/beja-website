@@ -1,15 +1,27 @@
 /* Button.tsx */
 
 .container {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
     height: 2em;
-    width: 10em;
-    color: white;
+    width: 100%;
     border-radius: 100em;
     padding-bottom: 0.3em;
 }
 
-.container .text {
-    line-height: 2.4em;
-    text-align: center;
+.iconContainer {
+    position: relative;
+    top: 0.7em;
+    padding-left: 1em;
+}
+
+.text {
+    color: white;
     font-weight: bold;
+    position: relative;
+    bottom: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
 }

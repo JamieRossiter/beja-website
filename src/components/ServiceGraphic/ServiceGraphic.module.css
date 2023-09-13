@@ -11,9 +11,10 @@
 }
 
 .graphic {
-    width: 5em;
-    margin-top: 0.8em;
-    margin-left: 0.9em;
+    width: 4em;
+    position: relative;
+    left: 1.5em;
+    top: 1.3em;
 }
 
 .headingContainer, .textContainer {
@@ -44,8 +45,10 @@
     }
     
     .graphic {
-        width: 5em;
-        margin-left: 0em
+        width: 4em;
+        position: relative;
+        left: 0em;
+        top: 1.5em;
     }
 
     .headingContainer, .textContainer {

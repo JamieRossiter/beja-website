@@ -17,7 +17,7 @@ export const PortfolioCarousel = () => {
                     <CarouselTabs tabNo={3} />
                 </div>
                 <div className={styles.enquireNowContainer}>
-                    <Button text="Enquire Now" isPrimary={true} /> 
+                    <Button text="Enquire Now" isPrimary={true} href="#contact" /> 
                 </div>
             </div>
         </>

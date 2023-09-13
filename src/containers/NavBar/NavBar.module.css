@@ -1,10 +1,15 @@
 /** NavBar **/
 
 .parent {
+    z-index: 2;
     background-color: white;
     width: 100%;
     position: fixed;
     padding-bottom: 1.3em;
+}
+
+.logoContainer {
+    cursor: pointer;
 }
 
 .containerOpen {
