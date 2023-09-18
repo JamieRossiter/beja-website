@@ -1,8 +1,18 @@
 /* Contact.tsx */
 
-.parent {
+.parentShow, .parentHide {
     padding-bottom: 4em;
     padding-top: 1em;
+}
+
+.parentShow {
+    opacity: 1;
+    animation: fadeIn 1s;
+}
+
+.parentHide {
+    opacity: 0;
+    animation: fadeOut 1s;
 }
 
 .headerContainer {
@@ -61,7 +71,7 @@
 
 @media only screen and (max-width: 700px){
 
-    .parent {
+    .parentShow, .parentHide {
         padding-bottom: 3em;
         padding-top: 1.5em;
     }
@@ -120,4 +130,16 @@
         margin-bottom: 0.5em;
     }
 
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }

@@ -1,5 +1,21 @@
 /** Packages.tsx **/
 
+.parentShow, .parentHide {
+    position: relative;
+}
+
+.parentShow {
+    top: 0em;
+    opacity: 1;
+    animation: slideFromTop 1s;
+}
+
+.parentHide {
+    top: 10em;
+    opacity: 0;
+    animation: slideToTop 0.5s;
+}
+
 .packagesContainer {
     padding-top: 3em;
     padding-bottom: 5em;
@@ -21,4 +37,26 @@
         margin-right: auto;
     }
 
+}
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        top: 10em;
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@keyframes slideToTop {
+    0% {
+        opacity: 1;
+        top: 0;
+    }
+    100% {
+        opacity: 0;
+        top: 10em;
+    }
 }

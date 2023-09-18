@@ -1,10 +1,40 @@
 /** Profile.tsx **/
 
-.parent {
+.parent, .parentInverted {
     display: flex;
     padding-top: 3em;
     padding-bottom: 3em;
     justify-content: center;
+    position: relative;
+}
+
+.superParentShow .parent {
+    opacity: 1;
+    left: 0;
+    animation: slideFromRight 1s;
+}
+
+.superParentShow .parentInverted {
+    opacity: 1;
+    right: 0;
+    animation: slideFromLeft 1s;
+}
+
+.superParentHide .parent {
+    opacity: 0;
+    left: 30em;
+    animation: slideToRight 0.5s;
+}
+
+.superParentHide .parentInverted {
+    opacity: 0;
+    right: 30em;
+    animation: slideToLeft 0.5s;
+}
+
+.parentInverted {
+    flex-direction: row-reverse;
+    background-color: #D9D9D933;
 }
 
 .copyContainer {
@@ -47,8 +77,8 @@
 
 @media only screen and (max-width: 985px){
 
-    .parent {
-        flex-direction: column !important;
+    .parent, .parentInverted {
+        flex-direction: column;
         text-align: center;
     }
 
@@ -98,4 +128,48 @@
         width: 90%;
     }
 
+}
+
+@keyframes slideFromRight {
+    0% {
+        left: 30em;
+        opacity: 0;
+    }
+    100% {
+        left: 0em;
+        opacity: 1;
+    }
+}
+
+@keyframes slideToRight {
+    0% {
+        left: 0em;
+        opacity: 1;
+    }
+    100% {
+        left: 30em;
+        opacity: 0;
+    }
+}
+
+@keyframes slideFromLeft {
+    0%{
+        right: 30em;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slideToLeft {
+    0% {
+        right: 0;
+        opacity: 1;
+    }
+    100% {
+        right: 30em;
+        opacity: 0;
+    }
 }

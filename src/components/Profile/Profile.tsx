@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React from "react";
 import { Skill } from "../../subcomponents/Skill/Skill";
 import styles from "./Profile.module.css";
 
@@ -10,13 +10,10 @@ export const Profile = (props:
         subheader: string,
         skills: Array<string>,
         color: string,
-        isInverted: boolean 
+        isInverted: boolean,
+        scrollPosTarget: number,
+        scrollPos: number
     } ) => {
-
-    const parentStyles: React.CSSProperties = {
-        flexDirection: props.isInverted ? "row-reverse" : "row",
-        backgroundColor: props.isInverted ? "#D9D9D933" : "white"
-    }
 
     // Render the profile's skill string props as Skill components
     const renderSkills = (skills: Array<string>) => {
@@ -29,8 +26,8 @@ export const Profile = (props:
 
     return(
         <>
-            <div className={styles.superParent} />
-                <div className={styles.parent} style={parentStyles}>
+            <div className={props.scrollPos > props.scrollPosTarget ? styles.superParentShow : styles.superParentHide}>
+                <div className={props.isInverted ? styles.parentInverted : styles.parent}>
                     <div className={styles.profileImgContainer}>
                         <img className={styles.profileImg} src={props.imgName} />
                     </div>
@@ -46,6 +43,7 @@ export const Profile = (props:
                         </div>
                     </div>
                 </div>
+            </div>
         </>
     )
 

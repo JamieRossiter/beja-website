@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./App.module.css";
 import "./index.css";
 
@@ -12,16 +13,31 @@ import { Footer } from "./containers/Footer/Footer";
 import { PortfolioCarousel } from "./containers/PortfolioCarousel/PortfolioCarousel";
 
 function App() {
+
+  const [scrollPosition, setScrollPosition] = React.useState<number>(0);
+
+  // Handle scroll
+  React.useEffect(() => {
+    document.body.addEventListener("scroll", handleScroll);
+    return () => {
+        document.body.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = (): void => {
+    setScrollPosition(document.body.scrollTop);
+  };
+
   return (
     <>
       <div className={styles.navBarContainer}>
-        <NavBar />
+        <NavBar scrollPos={scrollPosition} />
       </div>
       <div className={styles.landingContainer}>
         <Landing />
       </div>
       <div id="services" className={styles.servicesContainer}>
-        <Services />
+        <Services scrollPos={scrollPosition} />
       </div>
       <div>
         <Profile 
@@ -31,6 +47,8 @@ function App() {
           color="#FF0064CC"
           skills={["UX Design", "Graphic Comms"]}
           isInverted={false}
+          scrollPosTarget={800}
+          scrollPos={scrollPosition}
         >
           A certified graphic designer with a minor in UI design. Industry marketing experience. I have a passion for aesthetics and functional design. Here to design your dreams - big or small.
         </Profile>
@@ -41,6 +59,8 @@ function App() {
           color="#0150E8"
           skills={["Web Development", "HTML, CSS, JS"]}
           isInverted={true}
+          scrollPosTarget={1100}
+          scrollPos={scrollPosition}
         >
           I have a strong foundation in technical web development stemming from my software engineering qualifications. For me, building digital experiences is a passion, not a job.
         </Profile>
@@ -49,13 +69,13 @@ function App() {
         <PortfolioCarousel />
       </div>
       <div id="packages" className={styles.packagesContainer}>
-        <Packages />
+        <Packages scrollPos={scrollPosition} />
       </div>
       <div id="contact" className={styles.contactContainer}>
-        <Contact />
+        <Contact scrollPos={scrollPosition} />
       </div>
-      <div className={styles.faqsContainer}>
-        <FAQs />
+      <div id="faqs" className={styles.faqsContainer}>
+        <FAQs scrollPos={scrollPosition} />
       </div>
       <div className={styles.footerContainer}>
         <Footer />

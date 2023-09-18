@@ -1,5 +1,40 @@
-.parent {
+.parentShow, .parentHide {
     background-color: #FFBF4F;
     padding-top: 3em;
     padding-bottom: 3em;
+    position: relative;
+}
+
+.parentShow {
+    animation: slideFromLeft 1s;
+    right: 0em;
+}
+
+.parentHide {
+    right: 100em;
+    animation: slideToLeft 1s;
+}
+
+/* Animations */
+
+@keyframes slideFromLeft {
+    0%{
+        right: 10em;
+        opacity: 0;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slideToLeft {
+    0% {
+        right: 0;
+        opacity: 1;
+    }
+    100% {
+        right: 60em;
+        opacity: 0;
+    }
 }

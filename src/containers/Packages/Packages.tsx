@@ -2,10 +2,10 @@ import styles from "./Packages.module.css";
 import { PackageGraphic } from "../../components/PackageGraphic/PackageGraphic";
 import { Banner } from "../../components/Banner/Banner";
 
-export const Packages = () => {
+export const Packages = (props: { scrollPos: number }) => {
     return(
         <>
-            <div className={styles.parent}>
+            <div className={props.scrollPos > 2200 ? styles.parentShow : styles.parentHide}>
                 <div className={styles.packagesContainer}>
                     <div className={styles.package}>
                         <PackageGraphic 

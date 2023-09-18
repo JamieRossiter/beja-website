@@ -1,10 +1,12 @@
+import React from "react";
 import styles from "./Services.module.css";
 import { ServiceGraphic } from "../../components/ServiceGraphic/ServiceGraphic";
 
-export const Services = () => {
+export const Services = (props: { scrollPos: number }) => {
+
     return(
         <>
-            <div className={styles.superParent}>
+            <div className={props.scrollPos > 50 ? styles.superParentShow : styles.superParentHide}>
                 <div className={styles.parent}>
                     <div className={styles.serviceGraphicContainer}>
                         <ServiceGraphic 

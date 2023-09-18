@@ -2,11 +2,11 @@ import { Question } from "../../components/Question/Question";
 import { Tab } from "../../subcomponents/Tab/Tab";
 import styles from "./FAQs.module.css";
 
-export const FAQs = () => {
+export const FAQs = (props: { scrollPos: number }) => {
     return(
         <>
-            <div className={styles.parent}>
-                <Tab text="FAQs" />
+            <div className={props.scrollPos > 3400 ? styles.parentShow : styles.parentHide }>
+                {/* <Tab text="FAQs" /> */}
                 <div className={styles.questionContainer}>
                     <Question 
                         question="Why use SquareSpace?" 

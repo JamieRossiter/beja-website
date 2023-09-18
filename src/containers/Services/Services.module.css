@@ -1,9 +1,18 @@
 /** Services.tsx **/
 
-.superParent {
+.superParentHide, .superParentShow {
     padding-top: 3em;
     background-color: #D9D9D933;
     padding-bottom: 3em;
+}
+
+.superParentShow {
+    animation: fadeIn 1s;
+}
+
+.superParentHide {
+    opacity: 0;
+    animation: fadeOut 0.5s;
 }
 
 .parent {
@@ -44,4 +53,14 @@
         width: 100%;
     }
 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }
