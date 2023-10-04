@@ -19,6 +19,12 @@
 
     .parent {
         margin: auto;
+        height: 1.8em;
+        width: 9em;
+    }
+
+    .text {
+        margin-top: 1.3em;
     }
 
 }

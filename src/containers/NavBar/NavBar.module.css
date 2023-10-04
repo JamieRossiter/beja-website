@@ -31,6 +31,7 @@
 }
 
 .logoHide {
+    position: relative;
     opacity: 0;
     animation: fadeOut 0.5s;
 }
@@ -49,8 +50,8 @@
 }
 
 .pagesOpen a, .pagesClose a {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     cursor: pointer;
     font-size: 0.8em;
     color: black;
@@ -67,7 +68,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 1200px) {
     
     .containerOpen {
         flex-direction: column;
@@ -78,6 +79,7 @@
         position: relative;
         top: 1.7em;
         width: 10em;
+        /* left: 0.8em; */
         margin-left: auto;
         margin-right: auto;
     }
@@ -107,7 +109,8 @@
     }
 
     .burgerContainerClose {
-        margin-right: 2em;
+        margin-top: 0.15em;
+        margin-right: 1em;
         float: right;
         display: block;
     }

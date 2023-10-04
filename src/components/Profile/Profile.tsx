@@ -29,11 +29,13 @@ export const Profile = (props:
             <div className={props.scrollPos > props.scrollPosTarget ? styles.superParentShow : styles.superParentHide}>
                 <div className={props.isInverted ? styles.parentInverted : styles.parent}>
                     <div className={styles.profileImgContainer}>
-                        <img className={styles.profileImg} src={props.imgName} />
+                        <img className={styles.profileImg} src={props.imgName + ".png"} />
+                        <img className={styles.profileImgMobile} src={props.imgName + "_mobile.png"} />
                     </div>
                     <div className={styles.copyContainer}>
                         <div className={styles.headerContainer}>
                             <p className={styles.header}>{props.header} <span className={styles.subheader}>({props.subheader})</span></p>
+                            <p className={styles.subheaderMobile}>({props.subheader})</p>
                         </div>
                         <div className={styles.textContainer}>
                             <p className={styles.text}>{props.children}</p>

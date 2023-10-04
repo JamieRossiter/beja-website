@@ -9,7 +9,7 @@ export const Banner = () => {
                     <p className={styles.text}>We offer branding and identity too</p>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <Button text="Enquire Now" href="#contact" />
+                    <Button text="Enquire Now" href="#contact" isPrimary bgColor="white" textColor="#FD3181" />
                 </div>
             </div>
         </>

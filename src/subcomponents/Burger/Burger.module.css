@@ -1,3 +1,8 @@
+.containerOpen {
+    position: relative;
+    z-index: 1;
+}
+
 .containerClose .rect:nth-child(1) {
     transform: rotate(45deg);
     position: relative;
@@ -31,7 +36,7 @@
 .rect {
     background-color: black;
     border-radius: 10px;
-    width: 1.1em;
+    width: 0.9em;
     height: 4px;
     margin-top: 4px;
     margin-bottom: 3px;

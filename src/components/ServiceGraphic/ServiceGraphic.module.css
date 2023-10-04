@@ -18,7 +18,7 @@
 }
 
 .headingContainer, .textContainer {
-    width: 20em;
+    width: 21em;
     margin-left: 1.5em;
     margin-top: -0.3em;
 }
@@ -30,6 +30,14 @@
 .text {
     margin-top: -0.5em;
     font-size: 0.8em;
+}
+
+@media only screen and (max-width: 1500px) {
+    
+    .parent {
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (max-width: 666px) {

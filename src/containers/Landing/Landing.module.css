@@ -3,7 +3,7 @@
 .parent {
     margin-left: 5em;
     padding-top: 6em;
-    padding-bottom: 6%;
+    padding-bottom: 6em;
 }
 
 .container {
@@ -24,35 +24,106 @@
     object-fit: contain; 
 }
 
+
+.logoMobile {
+    width: 55%;
+    display: none;
+}
+
+.logoTextMobile {
+    display: none;
+}
+
 .buttonContainer {
     width: 10em;
     margin-left: 5.5em;
     margin-top: 3em;
 }
 
-@media only screen and (max-width: 700px)   {
+.textButtonContainer {
+    background-color: none;
+}
 
-    .logo {
-        text-align: center;
-        width: 80%;
+@media only screen and (max-width: 900px) {
+
+    .parent {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
     }
 
     .container .text {
+        font-size: 0.7em;
         margin-left: 0em;
-        width: 90%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
     }
 
     .buttonContainer {
-        margin-left: 0em;
+        width: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
     }
 
 }
 
-@media only screen and (max-width: 520px)   {
+@media only screen and (max-width: 400px)   {
+    
+    .logo {
+        display: none;
+    }
 
-    .parent {
-        margin-left: 2em;
+    .logoMobile {
+        width: 55%;
+        display: inline-block;
+    }
+
+    .logoTextMobile {
+        width: 80%;
+        margin-top: 2em;
+        display: inline-block;
+    }
+
+    .waveHand {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container .text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .buttonContainer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textButtonContainer {
+        background-color: #F7F7F7;
+        margin-top: 6em;
+        padding-top: 3em;
         padding-bottom: 3em;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
     }
 
 }

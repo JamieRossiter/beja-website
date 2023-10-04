@@ -7,7 +7,7 @@
 }
 
 .imageContainer img {
-    width: 40%;
+    width: 50%;
 }
 
 .enquireNowContainer {
@@ -21,10 +21,12 @@
 }
 
 .textClient {
+    font-size: 1.5em;
     margin-bottom: 0.5em;
 }
 
 .textProject {
+    font-size: 1.5em;
     font-weight: bold;
     color: #0150E8;
 
@@ -37,6 +39,12 @@
 
 @media only screen and (max-width: 811px){
     .imageContainer img {
-        width: 90%;
+        width: 100%;
     }
+
+    .textClient, .textProject {
+        margin-bottom: 0.5em;
+        font-size: 0.75em;
+    }
+    
 }

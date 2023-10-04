@@ -9,24 +9,25 @@ export const FAQs = (props: { scrollPos: number }) => {
                 {/* <Tab text="FAQs" /> */}
                 <div className={styles.questionContainer}>
                     <Question 
-                        question="Why use SquareSpace?" 
-                        answer="Build functional websites. However this does take time, effort and graphic experience which you may not have - so leave it to us. (software experience?)" 
+                        question="Why do we use SquareSpace?" 
+                        answer="Squarespace is a user-friendly and contemporary website builder that allows.... 
+                        However making your website functional and attractive does take time, effort and graphic experience which you may not have - so leave it to us. " 
                     />
                     <Question 
                         question="How do I maintain my website once you have built it for me?" 
-                        answer="Squarespace is user-friendly and easy to navigate. let us handle the technical parts. Once we finish building out your content, we will schedule a handover session to teach you how you can edit and update your new website!" 
+                        answer="The Squarespace editor function is easy to navigate which allows you to easily manage your website. Once we finish building out your site, we will schedule a handover session to teach you how you can edit and update whenever you need." 
                     />
                     <Question 
                         question="I don’t feel comfortable running my own website. Is there a way you can run it for me?" 
-                        answer="For sure, we would be more than happy to assist you run your website. We offer a monthly subscription plan where we can implement any changes you require and take care of all the nitty gritty."
+                        answer="We would be more than happy to assist in running your website. We offer a monthly subscription plan where we can implement any changes you require, as well as update domain subscriptions, etc."
                     />
                     <Question 
-                        question="My business already has an existing website but I am not happy with it. How can your services help me?" 
-                        answer="Give us your existing website and we can transfer over all your content into a new Squarespace website."
+                        question="My business already has an existing website but I am looking to update it. How can your services help me?" 
+                        answer="Hand over your existing website and resources, and we can transfer over all your content into a brand new Squarespace website."
                     />
                     <Question 
                         question="I would like a website for my small business but I don’t have a brand identity yet. How can you help me?" 
-                        answer="Lucky for you, we’ve got a graphic designer in the team to help you create the branding and identity of your dreams. We’ll create a logo, colour scheme, typography style and package it up into your very own style guide. Just send us a message of what you have in mind and we’ll go from there!"
+                        answer="Lucky for you, we offer branding and identity services too! We’ve got a graphic designer in the team to package up a branding style guide with a logo, brand colour scheme and typography style. Show us your inspiration and we’ll take it from there!"
                     />
                 </div>
             </div>

@@ -1,7 +1,7 @@
 /* Footer.tsx */
 
 .parent {
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -23,7 +23,7 @@
 }
 
 .text {
-    color: white;
+    color: black;
     font-size: 1.5em;
     font-weight: bold;
 }

@@ -8,7 +8,7 @@ export const NavBar = (props: { scrollPos: number }) => {
     const [isBurgerOpen, setBurgerOpen] = React.useState<boolean>(false);
 
     const handleWindowResize = (): void => {
-        if(window.innerWidth <= 835){
+        if(window.innerWidth <= 1200){
             setBurgerActivated(true);
         } else {
             setBurgerActivated(false);
@@ -40,7 +40,7 @@ export const NavBar = (props: { scrollPos: number }) => {
         <>
             <div className={styles.parent}>
                 <div onClick={() => { document.body.scrollTo(0, 0) }} className={styles.logoContainer}>
-                    <img className={props.scrollPos > 200 && !isBurgerOpen ? styles.logoShow : styles.logoHide} src="./img/beja_logo.png" />
+                    <img className={props.scrollPos > 300 && !isBurgerOpen ? styles.logoShow : styles.logoHide} src="./img/beja_logo.png" />
                 </div>
                 <div className={isBurgerOpen || !isBurgerActivated ? styles.containerOpen : styles.containerClose}>
                     <div className={isBurgerOpen ? styles.pagesOpen : styles.pagesClose }>

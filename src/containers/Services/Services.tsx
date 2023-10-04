@@ -19,7 +19,7 @@ export const Services = (props: { scrollPos: number }) => {
                     <div className={styles.serviceGraphicContainer}>
                         <ServiceGraphic 
                             heading="We design"
-                            text="We design to align with your brand and business, incorporating thoughtful iconography, typography and imagery. We focus on originality and don't rely on generic templates."
+                            text="We design to align with your brand, incorporating thoughtful iconography, typography and imagery. We focus on originality, and don’t rely on templates."
                             color="#FF0064CC" 
                             imgName="design" 
                         />

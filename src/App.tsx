@@ -41,19 +41,19 @@ function App() {
       </div>
       <div>
         <Profile 
-          imgName="./img/belinda.png" 
+          imgName="./img/belinda" 
           header="I'm Belinda" 
           subheader="the designer" 
-          color="#FF0064CC"
+          color="#FD3181"
           skills={["UX Design", "Graphic Comms"]}
           isInverted={false}
           scrollPosTarget={800}
           scrollPos={scrollPosition}
         >
-          A certified graphic designer with a minor in UI design. Industry marketing experience. I have a passion for aesthetics and functional design. Here to design your dreams - big or small.
+          A graduated graphic designer with a minor in UI and UX design. I have industry marketing experience under my belt and a passion for aesthetics and functional design. Here to design your dreams - big or small.
         </Profile>
         <Profile 
-          imgName="./img/jamie.png" 
+          imgName="./img/jamie" 
           header="And I'm Jamie" 
           subheader="the engineer" 
           color="#0150E8"

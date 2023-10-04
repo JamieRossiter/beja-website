@@ -6,10 +6,14 @@ export const Landing = () => {
         <>
             <div className={styles.parent}>
                 <div className={styles.container}>
+                    <img src ="./img/beja_logo_icon_large.png" className={styles.logoMobile} />
                     <img src="./img/beja_logo.png" className={styles.logo} />
-                    <p className={styles.text}>👋 We’re a Melbourne-based SquareSpace web design duo, committed to developing sleek and user-friendly websites tailored to your business.</p>
-                    <div className={styles.buttonContainer}>
-                        <Button text="Enquire Now" href="#contact" />
+                    <img src="./img/beja_logo_text_large.png" className={styles.logoTextMobile} />
+                    <div className={styles.textButtonContainer}>
+                        <p className={styles.text}><span className={styles.waveHand}>👋</span> We’re a Melbourne-based SquareSpace web design duo, committed to developing sleek and user-friendly websites tailored to your business.</p>
+                        <div className={styles.buttonContainer}>
+                            <Button text="Enquire Now" href="#contact" />
+                        </div>
                     </div>
                 </div>
             </div>
