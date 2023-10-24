@@ -6,5 +6,5 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     scroll-behavior: smooth;
-    scroll-padding-top: 85px;
+    scroll-padding-top: 30px;
 }

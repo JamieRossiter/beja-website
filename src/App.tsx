@@ -15,6 +15,7 @@ import { PortfolioCarousel } from "./containers/PortfolioCarousel/PortfolioCarou
 function App() {
 
   const [scrollPosition, setScrollPosition] = React.useState<number>(0);
+  const [windowWidth, setWindowWidth] = React.useState<number>(0);
 
   // Handle scroll
   React.useEffect(() => {
@@ -28,10 +29,22 @@ function App() {
     setScrollPosition(document.body.scrollTop);
   };
 
+  // Handle window width
+  React.useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+    return () => {
+        window.removeEventListener("resize", handleWindowResize);
+    }
+  },[])
+
+  const handleWindowResize = (): void => {
+    setWindowWidth(window.innerWidth);
+  }
+
   return (
     <>
       <div className={styles.navBarContainer}>
-        <NavBar scrollPos={scrollPosition} />
+        <NavBar scrollPos={scrollPosition} windowWidth={windowWidth} />
       </div>
       <div className={styles.landingContainer}>
         <Landing />
@@ -66,7 +79,7 @@ function App() {
         </Profile>
       </div>
       <div id="portfolio-carousel" className={styles.portfolioContainer}>
-        <PortfolioCarousel />
+        <PortfolioCarousel windowWidth={windowWidth} />
       </div>
       <div id="packages" className={styles.packagesContainer}>
         <Packages scrollPos={scrollPosition} />
@@ -80,6 +93,7 @@ function App() {
       <div className={styles.footerContainer}>
         <Footer />
       </div>
+
     </>
   );
 }

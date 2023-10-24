@@ -5,7 +5,7 @@ import styles from "./FAQs.module.css";
 export const FAQs = (props: { scrollPos: number }) => {
     return(
         <>
-            <div className={props.scrollPos > 3400 ? styles.parentShow : styles.parentHide }>
+            <div className={props.scrollPos > 4200 ? styles.parentShow : styles.parentHide }>
                 {/* <Tab text="FAQs" /> */}
                 <div className={styles.questionContainer}>
                     <Question 

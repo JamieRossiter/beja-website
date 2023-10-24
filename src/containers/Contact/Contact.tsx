@@ -6,7 +6,7 @@ import styles from "./Contact.module.css";
 export const Contact = (props: { scrollPos: number }) => {
     return(
         <>
-            <div className={props.scrollPos > 3100 ? styles.parentShow : styles.parentHide }>
+            <div className={props.scrollPos > 3800 ? styles.parentShow : styles.parentHide }>
                 <div className={styles.headerContainer}>
                     <p className={styles.header}>Sounds good?</p>
                     <p className={styles.subheader}>We'd love to hear from you.</p>

@@ -1,0 +1,71 @@
+/* Carousel.tsx */
+
+.contentContainerSlideLeft, .contentContainerSlideRight {
+    position: relative;
+    opacity: 1;
+}
+
+.contentContainerSlideLeft {
+    animation: slideToLeft 0.5s;
+}
+
+.contentContainerSlideRight {
+    animation: slideToRight 0.5s;
+}
+
+.tabsContainer {
+    margin-top: -1em;
+}
+
+.carouselContainer {
+    width: 100%;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.leftArrow, .rightArrow {
+    transition: 0.2s ease-in;
+    position: relative;
+    top: 15em;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.leftArrow:hover, .rightArrow:hover {
+    transition: 0.2s ease-in;
+    opacity: 0.5;
+}
+
+.leftArrow {
+    left: 3em;
+}
+
+.rightArrow {
+    right: 3em;
+}
+
+
+@keyframes slideToLeft {
+    0% {
+        left: 10em;
+        opacity: 0;
+    }
+    100% {
+        left: 0em;
+        opacity: 1;
+    }
+}
+
+@keyframes slideToRight{
+    0% {
+        right: 10em;
+        opacity: 0;
+    }
+    100% {
+        right: 0em;
+        opacity: 1;
+    }
+}

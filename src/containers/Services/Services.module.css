@@ -23,6 +23,10 @@
     justify-content: center;
 }
 
+.mobileParent {
+    display: none;
+}
+
 .serviceGraphicContainer {
     margin-left: 2em;
     margin-right: 2em;
@@ -49,10 +53,17 @@
 
     .superParentHide, .superParentShow {
         background-color: white;
+        padding-top: 0em;
+        padding-bottom: 2em;
+        margin-top: -3em;
     }
     
     .parent {
-        width: 100%;
+        display: none;
+    }
+
+    .mobileParent {
+        display: block;
     }
 
 }

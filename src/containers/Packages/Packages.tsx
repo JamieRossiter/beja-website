@@ -5,7 +5,7 @@ import { Banner } from "../../components/Banner/Banner";
 export const Packages = (props: { scrollPos: number }) => {
     return(
         <>
-            <div className={props.scrollPos > 2200 ? styles.parentShow : styles.parentHide}>
+            <div className={props.scrollPos > 2800 ? styles.parentShow : styles.parentHide}>
                 <div className={styles.packagesContainer}>
                     <div className={styles.package}>
                         <PackageGraphic 
