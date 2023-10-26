@@ -19,7 +19,7 @@ export const Footer = () => {
                         <FooterGraphic imgName="" bgColor="#0150E8" />
                     </div>
                     <div className={styles.footerGraphic}>
-                        <FooterGraphic imgName="./img/beja_logo_icon.png" bgColor="black" />
+                        <FooterGraphic imgName={process.env.PUBLIC_URL + "/img/beja_logo_icon.png"} bgColor="black" />
                     </div>
                 </div>
             </div>

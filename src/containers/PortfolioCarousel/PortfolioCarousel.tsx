@@ -8,7 +8,7 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
     const portfolioItems = [
         <div>
             <div className={styles.imageContainer}>
-                <img src="./img/benwerrin.png" />
+                <img src={process.env.PUBLIC_URL + "/img/benwerrin.png"} />
             </div>
             <div className={styles.textContainer}>
                 <p className={styles.textClient}>Client: Benwerrin Kindergarten</p>
@@ -17,7 +17,7 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
         </div>,
         <div>
             <div className={styles.imageContainer}>
-                <img src="./img/benwerrin.png" />
+                <img src={process.env.PUBLIC_URL + "/img/benwerrin.png"} />
             </div>
             <div className={styles.textContainer}>
                 <p className={styles.textClient}>Client: Benwerrin Kindergarten</p>

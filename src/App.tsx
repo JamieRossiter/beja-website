@@ -15,7 +15,7 @@ import { PortfolioCarousel } from "./containers/PortfolioCarousel/PortfolioCarou
 function App() {
 
   const [scrollPosition, setScrollPosition] = React.useState<number>(0);
-  const [windowWidth, setWindowWidth] = React.useState<number>(0);
+  const [windowWidth, setWindowWidth] = React.useState<number>(window.innerWidth);
 
   // Handle scroll
   React.useEffect(() => {
@@ -82,7 +82,7 @@ function App() {
         <PortfolioCarousel windowWidth={windowWidth} />
       </div>
       <div id="packages" className={styles.packagesContainer}>
-        <Packages scrollPos={scrollPosition} />
+        <Packages scrollPos={scrollPosition} windowWidth={windowWidth} />
       </div>
       <div id="contact" className={styles.contactContainer}>
         <Contact scrollPos={scrollPosition} />

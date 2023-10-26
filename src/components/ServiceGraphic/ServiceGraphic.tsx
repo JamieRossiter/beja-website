@@ -6,7 +6,7 @@ export const ServiceGraphic = (props: { heading: string, text: string, color: st
             <div className={styles.parent}>
                 <div className={styles.circleContainer}>
                     <div className={styles.circle} style={{ backgroundColor: props.color }}>
-                        <img className={styles.graphic} src={`./img/${props.imgName}.png`} />
+                        <img className={styles.graphic} src={process.env.PUBLIC_URL + `/img/${props.imgName}.png`} />
                     </div>
                 </div>
                 <div className={styles.copyContainer}>

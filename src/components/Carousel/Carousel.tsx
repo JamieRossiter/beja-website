@@ -72,17 +72,17 @@ export const Carousel = (props: { content: Array<React.ReactElement>, color?: st
         <>
             <div className={styles.contentContainer}>
                 <div hidden={!props.arrows} className={styles.leftArrowContainer}>
-                    <img onClick={() => {navLeft(); setSwipeDirection("right");}} className={styles.leftArrow} src="img/chevron_left.png" />
+                    <img onClick={() => {navLeft(); setSwipeDirection("right");}} className={styles.leftArrow} src={process.env.PUBLIC_URL + "/img/chevron_left.png"} />
                 </div>
                 <div onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd} className={styles.carouselContainer}>
                     {containerizeContent()[contentIndex]}
                 </div>
                 <div hidden={!props.arrows} className={styles.rightArrowContainer}>
-                    <img onClick={() => {navRight(); setSwipeDirection("left");}} className={styles.rightArrow} src="img/chevron_right.png" />
+                    <img onClick={() => {navRight(); setSwipeDirection("left");}} className={styles.rightArrow} src={process.env.PUBLIC_URL + "/img/chevron_right.png"} />
                 </div>
             </div>
             <div className={styles.tabsContainer}>
-                <CarouselTabs color={contentHasColorProps() ? props.content[contentIndex].props.children.props.color : null} activeTab={contentIndex} tabNo={props.content.length} />
+                <CarouselTabs color={contentHasColorProps() ? props.content[contentIndex].props.children.props.color : props.color} activeTab={contentIndex} tabNo={props.content.length} />
             </div>
         </>
     )
