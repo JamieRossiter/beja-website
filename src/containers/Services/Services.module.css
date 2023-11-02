@@ -32,24 +32,7 @@
     margin-right: 2em;
 }
 
-@media only screen and (max-width: 1500px) {
-    
-    .parent {
-        flex-direction: column;
-        padding-top: 0em;
-        padding-bottom: 0em;
-    }
-
-    .serviceGraphicContainer {
-        padding-top: 1em;
-        padding-bottom: 1em;
-        margin-left: 0em;
-        margin-right: 0em;
-    }
-
-}
-
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 900px) {
 
     .superParentHide, .superParentShow {
         background-color: white;

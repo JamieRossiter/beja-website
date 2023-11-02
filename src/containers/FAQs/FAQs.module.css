@@ -15,6 +15,34 @@
     animation: slideToLeft 1s;
 }
 
+.questionsContainerDesktop {
+    display: block;
+}
+
+.questionsContainerMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+
+    .parentShow, .parentHide {
+        background-color: #FFFFFF;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        position: relative;
+    }
+
+    .questionsContainerDesktop {
+        display: none;
+    }
+    
+    .questionsContainerMobile {
+        display: block;
+    }
+
+} 
+
+
 /* Animations */
 
 @keyframes slideFromLeft {

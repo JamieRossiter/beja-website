@@ -1,0 +1,60 @@
+/* PortfolioItem.tsx */
+
+.imageContainer img {
+    width: 50%;
+}
+
+.textContainer {
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+.textClient, .textProject {
+    font-size: 1.2em;
+}
+
+.textClient {
+    margin-bottom: 0.5em;
+}
+
+.textProject {
+    font-weight: bold;
+    color: #0150E8;
+}
+
+.testimonialContainer {
+    width: 70%;
+    margin: auto;
+    color: #0150E8;
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+}
+
+.testimonialContainer p {
+    font-size: 0.8em;
+}
+
+.testimonialName {
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 811px){
+    .imageContainer img {
+        width: 100%;
+    }
+
+    .textClient, .textProject {
+        margin-bottom: 0.5em;
+        font-size: 0.75em;
+    }
+
+    .testimonialContainer {
+        margin-bottom: 2em;
+    }
+
+    .testimonialContainer p {
+        font-size: 0.6em;
+    }
+    
+}

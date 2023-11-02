@@ -8,9 +8,9 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
     const packages: Array<JSX.Element> = [
         <div className={styles.package}>
             <PackageGraphic 
-                description="Ideal for those who want to go digital or refresh their current site."
+                description="Position your business on the digital map with a simple and modern website."
                 tierNo={1}
-                header="Beja Basic"
+                header="Beja Standard"
                 inclusions={
                     [
                         <p>Up to <span className={styles.bold}>4</span> custom designed pages</p>,
@@ -20,55 +20,55 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                         <p>Domain and hosting</p>,
                         <p>Basic SEO implementation</p>,
                         <p>Social media integration</p>,
-                        <p>Site handover session</p>,
                         <p>1 free revision</p>
                     ]
                 }
                 cost={1999}
-                recommendations="Portfolio and personal sites"
+                recommendations="Home/hobby businesses and folios"
             />
         </div>,
         <div className={styles.package}>
             <PackageGraphic 
                 tierNo={2}
-                description="Websites that need a little extra “oomph” like a booking system, timetable or menu"
+                description="Establish client confidence with a sleek and professional online presence."
                 header="Beja Professional"
                 inclusions={
                     [
                         <p>Up to <span className={styles.bold}>8</span> custom designed pages</p>,
-                        <p>Everything in <span className={styles.emphasis}>Beja Basic</span></p>,
-                        <p>Booking system</p>,
-                        <p>Design and content session</p>,
+                        <p>Everything in <span className={styles.emphasis}>Beja Standard</span></p>,
+                        <p>x2 1-hour web design sessions</p>,
                         <p>Custom iconography & infographics</p>,
+                        <p>Social media creation and setup</p>,
+                        <p>Site handover session</p>,
                         <p>Custom CSS integration</p>,
-                        <p>Social media creation</p>,
-                        <p>Copywriting</p>,
                         <p>2 free revisions</p>
                     ]
                 }
                 cost={3999}
-                recommendations="Restaurants, beauty, health & home"
+                recommendations="Established local businesses"
             />
         </div>,
         <div className={styles.package}>
             <PackageGraphic 
                 tierNo={3}
-                description="Websites that need a little extra “oomph” like a booking system, timetable or menu"
-                header="Beja E-Commerce"
+                description="Elevate your business with the ultimate web and branding design package."
+                header="Beja Complete"
                 inclusions={
                     [
-                        <p>Up to <span className={styles.bold}>10</span> custom designed pages</p>,
-                        <p>Everything in <span className={styles.emphasis}>Beja Basic + Beja Pro</span></p>,
-                        <p>E-commerce integration</p>,
-                        <p>PayPal, Stripe & Afterpay integration</p>,
-                        <p>Shipping options set up</p>,
-                        <p>Gift card set up</p>,
-                        <p>First 10 products set up</p>,
+                        <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
+                        <p>Everything in <span className={styles.emphasis}>Beja Std + Beja Pro</span></p>,
+                        <p>x2 1-hour branding design sessions</p>,
+                        <p>x2 1-hour web design sessions</p>,
+                        <p>Logo design and creation</p>,
+                        <p>Colour palette & typography</p>,
+                        <p>1-page resolved style guide</p>,
+                        <p>Social media post design</p>,
+                        <p>Business card design</p>,
                         <p>3 free revisions</p>
                     ]
                 }
                 cost={4999}
-                recommendations="E-commerce, product & education"
+                recommendations="Start-up companies"
             />
         </div>
     ]

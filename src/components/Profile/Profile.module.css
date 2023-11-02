@@ -119,7 +119,6 @@
 
     .parentInverted {
         flex-direction: column;
-        background-color: white;
     }
 
     .profileImg {

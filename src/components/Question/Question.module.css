@@ -52,3 +52,38 @@
     }
 
 }
+
+@media only screen and (max-width: 700px){
+
+    .parent {
+        display: block;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .questionIcon {
+        background-color: #FFBF4F;
+        width: 3em;
+        height: 3em;
+        margin: auto;
+    }
+
+    .questionText {
+        color: #FFBF4F;
+        font-weight: bold;
+    }
+    
+    .answerText {
+        font-size: 0.7em;
+        color: #FFBF4F;
+        text-align: center;
+    }
+
+    .questionSymbol {
+        position: relative;
+        color: white;
+        font-size: 2em;
+        top: 0.15em;
+    }
+
+}

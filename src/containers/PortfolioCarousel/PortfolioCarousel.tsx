@@ -1,4 +1,5 @@
 import { Carousel } from "../../components/Carousel/Carousel";
+import { PortfolioItem } from "../../components/PortfolioItem/PortfolioItem";
 import { Button } from "../../subcomponents/Button/Button";
 import { CarouselTabs } from "../../subcomponents/CarouselTabs/CarouselTabs";
 import styles from "./PortfolioCarousel.module.css";
@@ -6,24 +7,24 @@ import styles from "./PortfolioCarousel.module.css";
 export const PortfolioCarousel = (props: { windowWidth: number }) => {
 
     const portfolioItems = [
-        <div>
-            <div className={styles.imageContainer}>
-                <img src={process.env.PUBLIC_URL + "/img/benwerrin.png"} />
-            </div>
-            <div className={styles.textContainer}>
-                <p className={styles.textClient}>Client: Benwerrin Kindergarten</p>
-                <a className={styles.textProject}>Project: Full website re-design</a>
-            </div>
-        </div>,
-        <div>
-            <div className={styles.imageContainer}>
-                <img src={process.env.PUBLIC_URL + "/img/benwerrin.png"} />
-            </div>
-            <div className={styles.textContainer}>
-                <p className={styles.textClient}>Client: Benwerrin Kindergarten</p>
-                <a className={styles.textProject}>Project: Full website re-design</a>
-            </div>
-        </div>
+        <>
+            <PortfolioItem 
+                client="Benwerrin Kindergarten"
+                project="Full website re-design"
+                testimonialName="Toni Lepore, Director of Benwerrin"
+                image="/img/benwerrin.png"
+                testimonialText="Working with Belinda and Jamie went smoothly. They were responsive, reliable, and flexible to meet our needs with improved design and functionality. The true standout, when they help launch the website, it significantly increased the enrolments and up to date, as someone who is not an expert in managing a website, the kinder continues to grow effortlessly."
+            />
+        </>,
+        <>
+            <PortfolioItem  
+                client="Benwerrin Kindergarten"
+                project="Full website re-design"
+                testimonialName="Toni Lepore, Director of Benwerrin"
+                image="/img/benwerrin.png"
+                testimonialText="Working with Belinda and Jamie went smoothly. They were responsive, reliable, and flexible to meet our needs with improved design and functionality. The true standout, when they help launch the website, it significantly increased the enrolments and up to date, as someone who is not an expert in managing a website, the kinder continues to grow effortlessly."
+            />
+        </>,
     ]
 
     return(

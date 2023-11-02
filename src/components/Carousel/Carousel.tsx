@@ -2,7 +2,6 @@ import React from "react";
 import { CarouselTabs } from "../../subcomponents/CarouselTabs/CarouselTabs";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import styles from "./Carousel.module.css";
-import { useScrollBlock } from "../../hooks/useScrollBlock";
 
 export const Carousel = (props: { content: Array<React.ReactElement>, color?: string, arrows?: boolean }) => {
     
@@ -10,7 +9,6 @@ export const Carousel = (props: { content: Array<React.ReactElement>, color?: st
     const [contentIndex, setContentIndex] = React.useState<number>(0);
     const [touchStart, setTouchStart] = React.useState<number>(0);
     const [touchEnd, setTouchEnd] = React.useState<number>(0);
-    const [blockScroll, allowScroll] = useScrollBlock();
 
     const minSwipeDistance: number = 50;
 
@@ -19,6 +17,7 @@ export const Carousel = (props: { content: Array<React.ReactElement>, color?: st
     } 
 
     const contentHasColorProps = (): boolean => {
+        if(props.color) return false;
         return props.content.every(prop => {
             if(!prop.props.children.props) return false;
             return prop.props.children.props.color;

@@ -6,41 +6,9 @@
     padding-top: 3em;
 }
 
-.imageContainer img {
-    width: 50%;
-}
-
 .enquireNowContainer {
     width: 10em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
-}
-
-.textContainer {
-    margin-top: -1em;
-    margin-bottom: 2em;
-}
-
-.textClient {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-.textProject {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #0150E8;
-}
-
-@media only screen and (max-width: 811px){
-    .imageContainer img {
-        width: 100%;
-    }
-
-    .textClient, .textProject {
-        margin-bottom: 0.5em;
-        font-size: 0.75em;
-    }
-    
 }
