@@ -67,6 +67,10 @@ export const Carousel = (props: { content: Array<React.ReactElement>, color?: st
         setContentIndex(contentIndex - 1);
     }
 
+    const navTab = (tab: number): void => {
+        setContentIndex(tab);
+    }
+
     return(
         <>
             <div className={styles.contentContainer}>
@@ -81,7 +85,7 @@ export const Carousel = (props: { content: Array<React.ReactElement>, color?: st
                 </div>
             </div>
             <div className={styles.tabsContainer}>
-                <CarouselTabs color={contentHasColorProps() ? props.content[contentIndex].props.children.props.color : props.color} activeTab={contentIndex} tabNo={props.content.length} />
+                <CarouselTabs navTab={navTab} color={contentHasColorProps() ? props.content[contentIndex].props.children.props.color : props.color} activeTab={contentIndex} tabNo={props.content.length} />
             </div>
         </>
     )

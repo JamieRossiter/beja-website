@@ -52,11 +52,13 @@
 .inclusionList {
     padding-left: 1.1em;
     font-size: 0.9em;
+    height: 10em;
 }
 
 .inclusionList li p {
     font-size: 0.7em;
     margin-top: -0.9em;
+    padding-top: 0.5em;
 }
 
 .costContainer {
@@ -64,11 +66,9 @@
 }
 
 .cost {
-    position: absolute;
-    top: 19em;
     font-weight: bold;
     font-size: 1.6em;
-    margin-bottom: 1em;
+    margin-top: 3.5em;
 }
 
 .aud {
@@ -97,10 +97,9 @@
     }
 
     .cost {
-        top: 21em;
         font-weight: bold;
         font-size: 1.6em;
-        margin-bottom: 1em;
+        margin-top: 7em;
     }
 
 }
@@ -146,7 +145,7 @@
     .cost {
         position: static;
         text-align: center;
-        margin-top: -1em;
+        margin-top: 3em;
     }
 
     .descriptionContainer{
