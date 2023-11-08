@@ -25,8 +25,8 @@ export const NavBar = (props: { scrollPos: number, windowWidth: number }) => {
         else if(props.scrollPos > 2360 && props.scrollPos < 3100) setCurrentSection(1);
         else if(props.scrollPos > 3100 && props.scrollPos < 4100) setCurrentSection(2);
         else if(props.scrollPos > 4000 && props.scrollPos < 4500) setCurrentSection(3);
-        else if(props.scrollPos > 4500 && props.scrollPos < 4900) setCurrentSection(4);
-        else if(props.scrollPos > 4900) setCurrentSection(-1);
+        // else if(props.scrollPos > 4500 && props.scrollPos < 4900) setCurrentSection(4);
+        else if(props.scrollPos > 4500) setCurrentSection(-1);
     }, [props.scrollPos])
 
     const toggleBurgerMenu = (): void => {
@@ -45,7 +45,7 @@ export const NavBar = (props: { scrollPos: number, windowWidth: number }) => {
         <a style={{fontWeight: currentSection === 1 ? "bold" : "normal"}} onClick={anchorToggleBurgerMenu} href="#portfolio-carousel" >Folio</a>,
         <a style={{fontWeight: currentSection === 2 ? "bold" : "normal"}} onClick={anchorToggleBurgerMenu} href="#packages" >Pricing</a>,
         <a style={{fontWeight: currentSection === 3 ? "bold" : "normal"}} onClick={anchorToggleBurgerMenu} href="#contact" >Contact</a>,
-        <a style={{fontWeight: currentSection === 4 ? "bold" : "normal"}} onClick={anchorToggleBurgerMenu} href="#faqs">FAQs</a>
+        // <a style={{fontWeight: currentSection === 4 ? "bold" : "normal"}} onClick={anchorToggleBurgerMenu} href="#faqs">FAQs</a>
     ]
 
     return(

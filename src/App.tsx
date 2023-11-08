@@ -87,9 +87,9 @@ function App() {
       <div id="contact" className={styles.contactContainer}>
         <Contact scrollPos={scrollPosition} />
       </div>
-      <div id="faqs" className={styles.faqsContainer}>
+      {/* <div id="faqs" className={styles.faqsContainer}>
         <FAQs scrollPos={scrollPosition} />
-      </div>
+      </div> */}
       <div className={styles.footerContainer}>
         <Footer />
       </div>

@@ -24,7 +24,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     ]
                 }
                 cost={1999}
-                recommendations="Home/hobby businesses and folios"
+                recommendations="Portfolio and personal sites"
             />
         </div>,
         <div className={styles.package}>

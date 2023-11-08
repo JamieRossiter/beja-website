@@ -35,7 +35,7 @@ export const PackageGraphic = (props: {
                         </ul>
                     </div>
                 <div className={styles.costContainer}>
-                    {/* <p className={styles.costHeader}>STARTING FROM</p> */}
+                    <p className={styles.costHeader}>STARTING FROM</p>
                     <p className={styles.cost}>${props.cost}<span className={styles.aud}>AUD</span></p>  
                 </div>
             </div>
