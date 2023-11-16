@@ -12,7 +12,7 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
                 client="Benwerrin Kindergarten"
                 project="Full website re-design"
                 testimonialName="Toni Lepore, Director of Benwerrin"
-                image="/img/benwerrin.png"
+                image="/img/benwerrin.webp"
                 testimonialText="Working with Belinda and Jamie went smoothly. They were responsive, reliable, and flexible to meet our needs with improved design and functionality. The true standout, when they help launch the website, it significantly increased the enrolments and up to date, as someone who is not an expert in managing a website, the kinder continues to grow effortlessly."
             />
         </>,
@@ -21,7 +21,7 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
                 client="Benwerrin Kindergarten"
                 project="Full website re-design"
                 testimonialName="Toni Lepore, Director of Benwerrin"
-                image="/img/benwerrin.png"
+                image="/img/benwerrin.webp"
                 testimonialText="Working with Belinda and Jamie went smoothly. They were responsive, reliable, and flexible to meet our needs with improved design and functionality. The true standout, when they help launch the website, it significantly increased the enrolments and up to date, as someone who is not an expert in managing a website, the kinder continues to grow effortlessly."
             />
         </>,

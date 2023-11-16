@@ -19,8 +19,10 @@
 }
 
 .logo {
+    position: relative;
+    right: 2.7em;
     margin-top: 5em;
-    width: 22em;
+    width: 25em;
     object-fit: contain; 
 }
 
@@ -52,7 +54,7 @@
     }
 
     .container {
-        width: 60%;
+        width: 70%;
         display: block;
         margin-left: auto;
         margin-right: auto
@@ -67,6 +69,7 @@
 
     .logo {
         width: 100%;
+        right: 0em;
     }
 
     .buttonContainer {

@@ -36,7 +36,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p>Up to <span className={styles.bold}>8</span> custom designed pages</p>,
                         <p>Everything in <span className={styles.emphasis}>Beja Standard</span></p>,
-                        <p>x2 1-hour web design sessions</p>,
+                        <p>x2 web design sessions</p>,
                         <p>Custom iconography & infographics</p>,
                         <p>Social media creation and setup</p>,
                         <p>Site handover session</p>,
@@ -57,8 +57,8 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
                         <p>Everything in <span className={styles.emphasis}>Beja Std + Beja Pro</span></p>,
-                        <p>x2 1-hour branding design sessions</p>,
-                        <p>x2 1-hour web design sessions</p>,
+                        <p>x2 branding design sessions</p>,
+                        <p>x2 web design sessions</p>,
                         <p>Logo design and creation</p>,
                         <p>Colour palette & typography</p>,
                         <p>1-page resolved style guide</p>,
@@ -84,7 +84,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                         {packages}
                     </div>
                 </div>    
-                <Banner />
+                {/* <Banner /> */}
             </div>
         </>
     )
