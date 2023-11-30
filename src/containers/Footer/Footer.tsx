@@ -9,9 +9,9 @@ export const Footer = () => {
                 <div className={styles.textSocialsContainer}>
                     <p className={styles.text}>Stay in touch.</p>
                     <div className={styles.socialsContainer}>
-                        <a className={styles.social}><BsLinkedin size="35px" color="black" /></a>
-                        <a className={styles.social}><BsFacebook size="35px" color="black" /></a>
-                        <a className={styles.social}><BsInstagram size="35px" color="black" /></a>
+                        <a className={styles.social}><BsLinkedin size="35px" color="white" /></a>
+                        <a className={styles.social}><BsFacebook size="35px" color="white" /></a>
+                        <a className={styles.social}><BsInstagram size="35px" color="white" /></a>
                     </div>
                 </div>
                 <div className={styles.footerGraphicsContainer}>
@@ -19,7 +19,7 @@ export const Footer = () => {
                         <FooterGraphic imgName="" bgColor="#0150E8" />
                     </div>
                     <div className={styles.footerGraphic}>
-                        <FooterGraphic imgName={process.env.PUBLIC_URL + "/img/beja_logo_icon.png"} bgColor="black" />
+                        <FooterGraphic imgName={process.env.PUBLIC_URL + "/img/beja_logo_icon.webp"} bgColor="white" />
                     </div>
                 </div>
             </div>

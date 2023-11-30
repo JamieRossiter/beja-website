@@ -11,6 +11,7 @@
 
 .image {
     margin-top: 2em;
+    height: 5em;
 }
 
 @media only screen and (max-width: 835px) {

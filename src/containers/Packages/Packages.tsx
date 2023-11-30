@@ -13,7 +13,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                 header="Beja Standard"
                 inclusions={
                     [
-                        <p>Up to <span className={styles.bold}>4</span> custom designed pages</p>,
+                        <p>Up to <span className={styles.bold}>5</span> custom designed pages</p>,
                         <p>Mobile and tablet responsive</p>,
                         <p>Original web concept and ideation</p>,
                         <p>In-house design and development</p>,
@@ -34,9 +34,8 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                 header="Beja Professional"
                 inclusions={
                     [
+                        <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Standard</span></p>,
                         <p>Up to <span className={styles.bold}>8</span> custom designed pages</p>,
-                        <p>Everything in <span className={styles.emphasis}>Beja Standard</span></p>,
-                        <p>x2 web design sessions</p>,
                         <p>Custom iconography & infographics</p>,
                         <p>Social media creation and setup</p>,
                         <p>Site handover session</p>,
@@ -55,13 +54,11 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                 header="Beja Complete"
                 inclusions={
                     [
+                        <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Std + Beja Pro</span></p>,
                         <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
-                        <p>Everything in <span className={styles.emphasis}>Beja Std + Beja Pro</span></p>,
-                        <p>x2 branding design sessions</p>,
-                        <p>x2 web design sessions</p>,
                         <p>Logo design and creation</p>,
                         <p>Colour palette & typography</p>,
-                        <p>1-page resolved style guide</p>,
+                        <p>Resolved style guide</p>,
                         <p>Social media post design</p>,
                         <p>Business card design</p>,
                         <p>3 free revisions</p>
