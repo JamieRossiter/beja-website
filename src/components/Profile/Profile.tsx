@@ -1,4 +1,3 @@
-import React from "react";
 import { Skill } from "../../subcomponents/Skill/Skill";
 import styles from "./Profile.module.css";
 

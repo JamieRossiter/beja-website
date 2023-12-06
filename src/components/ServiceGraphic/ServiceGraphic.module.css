@@ -86,12 +86,7 @@
         margin-right: auto;
     }
     
-    .graphic {
-        width: 10em;
-        position: relative;
-        right: 1.5em;
-        bottom: 3em;
-    }
+
 
     .headingContainer, .textContainer {
         width: 80%;
@@ -110,6 +105,14 @@
     .parent {
         margin-top: 0em;
         width: 100%;
+    }
+
+    .graphic {
+        width: 6em;
+        position: relative;
+        left: 0.1em;
+        top: 1.5em;
+        bottom: 0em;
     }
 
     .headingContainer, .textContainer {

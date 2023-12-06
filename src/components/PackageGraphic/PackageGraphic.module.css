@@ -3,6 +3,7 @@
 .parent {
     width: 15em;
     margin: auto;
+    text-align: center;
 }
 
 .cost, .costHeader {
@@ -49,27 +50,22 @@
 }
 
 .recommendationsHeader, .recommendations {
-    padding-left: 1em;
     font-size: 0.7em;
     position: relative;
 }
 
 .recommendationsHeader {
     font-weight: bold;
-    left: 1em;
     top: 1.5em;
 }
 
 .recommendations {
-    left: 1em;
     top: 0.6em;
 }
 
 .inclusionList {
-    padding-left: 1.1em;
     font-size: 0.9em;
     height: 10em;
-    text-align: center;
     list-style-type: none;
     padding: 0;
 }
@@ -83,7 +79,6 @@
 .costContainer {
     position: relative;
     bottom: 2em;
-    text-align: center;
 }
 
 .cost {
@@ -103,7 +98,7 @@
     }
 
     .costContainer {
-        margin-top: 1em;
+        margin-top: 7em;
     }
 
     .cost {
@@ -114,7 +109,7 @@
         font-size: 0.8em;
         font-weight: bold;
         position: relative;
-        top: 15.5em;
+        top: 0.5em;
     }
 
     .graphicContainer {
@@ -122,20 +117,16 @@
     }
 
     .recommendations {
-        width: 90%;
         font-size: 0.6em;
-        left: 1.2em;
+        left: 0em;
+    }
+
+    .recommendationsHeader {
+        left: 0em;
     }
 
     .header {
         font-size: 1.2em;
-        width: 20%;
-    }
-
-    .cost {
-        font-weight: bold;
-        font-size: 1.6em;
-        margin-top: 8em;
     }
 
 }
@@ -164,7 +155,7 @@
     .description {
         font-size: 0.6em;
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
@@ -178,20 +169,13 @@
         color: #0150E8;
     }
 
-    .cost, .costHeader {
-        position: static;
-        text-align: center;
-    }
-
-    .cost {
-        margin-top: 3em;
+    .costContainer {
+        margin-top: 5em;
     }
 
     .costHeader {
         font-size: 0.8em;
         font-weight: bold;
-        position: relative;
-        top: 5.5em;
     }
 
     .descriptionContainer{
@@ -201,14 +185,12 @@
 
     .recommendationsHeader, .recommendations {
         position: relative;
-        left: 1em;
         top: 1.2em;
-        text-align: left;
     }
 
     .recommendations {
         top: 0.3em;
-        left: 0.3em;
+        left: 0em;
         margin: auto;
         width: 90%;
     }

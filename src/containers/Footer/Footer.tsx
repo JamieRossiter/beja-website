@@ -1,4 +1,4 @@
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsTiktok, BsInstagram } from "react-icons/bs";
 import { FooterGraphic } from "../../subcomponents/FooterGraphic/FooterGraphic";
 import styles from "./Footer.module.css";
 
@@ -9,9 +9,8 @@ export const Footer = () => {
                 <div className={styles.textSocialsContainer}>
                     <p className={styles.text}>Stay in touch.</p>
                     <div className={styles.socialsContainer}>
-                        <a className={styles.social}><BsLinkedin size="35px" color="white" /></a>
-                        <a className={styles.social}><BsFacebook size="35px" color="white" /></a>
                         <a className={styles.social}><BsInstagram size="35px" color="white" /></a>
+                        <a className={styles.social}><BsTiktok size="35px" color="white" /></a>
                     </div>
                 </div>
                 <div className={styles.footerGraphicsContainer}>

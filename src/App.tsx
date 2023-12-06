@@ -68,7 +68,7 @@ function App() {
         <Profile 
           imgName="./img/jamie_headshot" 
           header="And I'm Jamie" 
-          subheader="the engineer" 
+          subheader="the developer" 
           color="#0150E8"
           skills={["Web Development", "HTML, CSS, JS"]}
           isInverted={true}

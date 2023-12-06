@@ -8,21 +8,23 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
 
     const portfolioItems = [
         <>
-            <PortfolioItem 
+            <PortfolioItem  
                 client="Benwerrin Kindergarten"
                 project="Full website re-design"
-                testimonialName="Toni Lepore, Director of Benwerrin"
+                testimonialName="Toni Lepore"
+                testimonialRole="Director, Benwerrin Kindergarten"
                 image="/img/benwerrin.webp"
-                testimonialText="Working with Belinda and Jamie went smoothly. They were responsive, reliable, and flexible to meet our needs with improved design and functionality. The true standout, when they help launch the website, it significantly increased the enrolments and up to date, as someone who is not an expert in managing a website, the kinder continues to grow effortlessly."
+                testimonialText="Jamie and Belinda were responsive, reliable, and flexible to meet our needs with improved design and functionality. The new, up-to-date website they developed significantly increased enrolments, and the kinder continues to grow effortlessly."
             />
         </>,
         <>
             <PortfolioItem  
                 client="Benwerrin Kindergarten"
                 project="Full website re-design"
-                testimonialName="Toni Lepore, Director of Benwerrin"
+                testimonialName="Toni Lepore"
+                testimonialRole="Director, Benwerrin Kindergarten"
                 image="/img/benwerrin.webp"
-                testimonialText="Working with Belinda and Jamie went smoothly. They were responsive, reliable, and flexible to meet our needs with improved design and functionality. The true standout, when they help launch the website, it significantly increased the enrolments and up to date, as someone who is not an expert in managing a website, the kinder continues to grow effortlessly."
+                testimonialText="Jamie and Belinda were responsive, reliable, and flexible to meet our needs with improved design and functionality. The new, up-to-date website they developed significantly increased enrolments, and the kinder continues to grow effortlessly."
             />
         </>,
     ]

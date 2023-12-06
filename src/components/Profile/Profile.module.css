@@ -86,6 +86,7 @@
 @media only screen and (max-width: 985px){
 
     .parent, .parentInverted {
+        padding-top: 0em;
         flex-direction: column;
         text-align: center;
     }

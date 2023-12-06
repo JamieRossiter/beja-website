@@ -13,11 +13,20 @@
 }
 
 .container:hover{
-    opacity: 0.7;
+    background-color: white !important;
     transition: 0.3s;
 }
 
+.container:hover .text {
+    color: var(--hover-color) !important;
+}
+
+.container:hover .iconContainer {
+    color: black;
+}
+
 .iconContainer {
+    color: white;
     position: relative;
     top: 0.7em;
     padding-left: 1em;

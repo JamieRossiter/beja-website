@@ -15,7 +15,7 @@
     font-size: 0.85em;
     margin-left: 6em;
     text-align: left;
-    width: 70%;
+    width: 43em;
 }
 
 .logo {
@@ -46,7 +46,7 @@
     background-color: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
 
     .parent {
         margin-left: auto;
@@ -105,6 +105,7 @@
     .container {
         text-align: center;
         width: 100%;
+        padding-top: 2em;
     }
 
     .container .text {

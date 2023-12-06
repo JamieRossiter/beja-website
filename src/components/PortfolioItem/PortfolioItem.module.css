@@ -11,6 +11,7 @@
 
 .textClient, .textProject {
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 .textClient {
@@ -36,7 +37,19 @@
 
 .testimonialName {
     font-weight: bold;
-    font-style: italic;
+}
+
+.testimonialText {
+    background-color: #D9D9D933;
+    padding: 1em;
+    border-left: #0150E8 solid 0.5em;
+}
+
+.testimonialRole {
+    position: relative;
+    bottom: 0.8em;
+    /* font-weight: bold; */
+    font-size: 0.7em !important;
 }
 
 @media only screen and (max-width: 811px){

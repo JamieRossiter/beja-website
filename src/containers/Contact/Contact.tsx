@@ -25,10 +25,10 @@ export const Contact = (props: { scrollPos: number }) => {
                 </div> */}
                 <div className={styles.buttonParent}>
                     <div className={styles.buttonContainer}>
-                        <Button href="mailto:hello@bejastudios.com" text="hello@bejastudios.com" icon={<FaEnvelope size="1em" color="white"/>} />
+                        <Button href="mailto:hello@bejastudios.com" text="hello@bejastudios.com" icon="email" />
                     </div>
                     <div className={styles.buttonContainer}>
-                        <Button href="tel:+61426678867" text="0426 678 867" icon={<FaPhone size="1em" color="white"/>} />
+                        <Button href="tel:+61426678867" text="0426 678 867" icon="phone" />
                     </div>
                 </div>
             </div>
