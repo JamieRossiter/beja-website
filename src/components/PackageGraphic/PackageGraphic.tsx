@@ -1,4 +1,5 @@
 import styles from "./PackageGraphic.module.css";
+import { TiTick } from "react-icons/ti";
 
 export const PackageGraphic = (props: {
     tierNo: number, 
@@ -10,7 +11,7 @@ export const PackageGraphic = (props: {
 }) => {
 
     const formatInclusions = (inclusions: Array<JSX.Element>) => {
-        return inclusions.map((inclusion: JSX.Element) => <li>{inclusion}</li>)
+        return inclusions.map((inclusion: JSX.Element) => <li className={styles.listItem}><TiTick className={styles.listItemIcon} />{inclusion}</li>)
     }
 
     return(

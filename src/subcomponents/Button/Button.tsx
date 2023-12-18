@@ -7,7 +7,7 @@ export const Button = (props: { text: string, isPrimary?: boolean, bgColor?: str
 
     const containerStyles: React.CSSProperties = {
         backgroundColor: props.isPrimary ? props.bgColor : "black", 
-        border: `${props.isPrimary ? props.bgColor : "black"} solid 3px`
+        border: `${props.isPrimary ? props.bgColor : "black"} solid 4px`
     }
 
     const textStyles: { marginRight: string, "--hover-color": string | undefined } = {

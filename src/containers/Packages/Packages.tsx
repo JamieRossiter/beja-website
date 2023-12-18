@@ -13,14 +13,13 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                 header="Beja Standard"
                 inclusions={
                     [
-                        <p>Up to <span className={styles.bold}>5</span> custom designed pages</p>,
+                        <p>Up to <span className={styles.bold}>4</span> custom designed pages</p>,
                         <p>Mobile and tablet responsive</p>,
                         <p>Original web concept and ideation</p>,
-                        <p>In-house design and development</p>,
                         <p>Domain and hosting</p>,
                         <p>Basic SEO implementation</p>,
                         <p>Social media integration</p>,
-                        <p>1 free revision</p>
+                        <p>Site handover session</p>
                     ]
                 }
                 cost={1999}
@@ -36,14 +35,13 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Standard</span></p>,
                         <p>Up to <span className={styles.bold}>8</span> custom designed pages</p>,
+                        <p>Basic integrations (e.g. map, video, form)</p>,
                         <p>Custom iconography & infographics</p>,
-                        <p>Social media creation and setup</p>,
-                        <p>Site handover session</p>,
-                        <p>Custom CSS integration</p>,
-                        <p>2 free revisions</p>
+                        <p>Google Business listing</p>,
+                        <p>Stock imagery</p>
                     ]
                 }
-                cost={3999}
+                cost={2999}
                 recommendations="Established local businesses"
             />
         </div>,
@@ -56,15 +54,12 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Std + Beja Pro</span></p>,
                         <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
-                        <p>Logo design and creation</p>,
-                        <p>Colour palette & typography</p>,
-                        <p>Resolved style guide</p>,
-                        <p>Social media post design</p>,
-                        <p>Business card design</p>,
-                        <p>3 free revisions</p>
+                        <p>Advanced custom CSS integration</p>,
+                        <p>Advanced integrations (e.g. payment, booking, mailing list)</p>,
+                        <p>Site copywriting</p>
                     ]
                 }
-                cost={4999}
+                cost={3999}
                 recommendations="Start-up companies"
             />
         </div>

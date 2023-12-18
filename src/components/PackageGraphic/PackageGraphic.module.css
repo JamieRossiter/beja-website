@@ -6,6 +6,15 @@
     text-align: center;
 }
 
+.listItem{
+    display: flex;
+}
+
+.listItemIcon {
+    position: relative;
+    bottom: 0.3em;
+}
+
 .cost, .costHeader {
     position: static;
 }
