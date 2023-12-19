@@ -1,0 +1,9 @@
+.parentContainer {
+    width: 10em;
+    text-align: center;
+}
+
+.parentContainer p {
+    top: 2em;
+    color: #FD3181;
+}

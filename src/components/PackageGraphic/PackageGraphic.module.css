@@ -13,6 +13,7 @@
 .listItemIcon {
     position: relative;
     bottom: 0.3em;
+    padding-right: 0.3em;
 }
 
 .cost, .costHeader {
@@ -46,6 +47,7 @@
 }
 
 .description {
+    text-align: left;
     font-size: 0.7em;
 }
 
@@ -73,10 +75,9 @@
 }
 
 .inclusionList {
-    font-size: 0.9em;
     height: 10em;
     list-style-type: none;
-    padding: 0;
+    padding-left: 0.5em;
 }
 
 .inclusionList li p {
@@ -103,7 +104,13 @@
 @media only screen and (max-width: 1150px) {
 
     .parent {
-        width: 10em;
+        width: 12em;
+    }
+
+    .listItemIcon {
+        position: relative;
+        bottom: 0.4em;
+        padding-right: 0.3em;
     }
 
     .costContainer {
@@ -122,7 +129,7 @@
     }
 
     .graphicContainer {
-        width: 10em;
+        width: 100%;
     }
 
     .recommendations {
@@ -136,6 +143,10 @@
 
     .header {
         font-size: 1.2em;
+    }
+
+    .inclusionList li p {
+        font-size: 0.5em;
     }
 
 }
@@ -171,7 +182,7 @@
     .graphicContainer {
         margin: auto;
         background-color: white;
-        width: 11em;
+        width: 80%;
         height: 3.5em;
         border-radius: 1em;
         margin-bottom: 2em;
@@ -179,7 +190,7 @@
     }
 
     .costContainer {
-        margin-top: 5em;
+        margin-top: 6.5em;
     }
 
     .costHeader {
@@ -205,8 +216,7 @@
     }
 
     .inclusionList {
-        padding-left: 0em;
-        font-size: 0.9em;
+        padding-left: 1em;
         text-align: center;
     }
 
@@ -214,6 +224,12 @@
         list-style-type: none;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
+    }
+
+    .inclusionList li p {
+        font-size: 0.55em;
+        margin-top: -0.9em;
+        padding-top: 0.5em;
     }
 
 }

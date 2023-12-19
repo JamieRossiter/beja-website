@@ -35,10 +35,13 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Standard</span></p>,
                         <p>Up to <span className={styles.bold}>8</span> custom designed pages</p>,
-                        <p>Basic integrations (e.g. map, video, form)</p>,
+                        <p className={styles.bold}>Basic integrations</p>,
+                        <p className={styles.example + " noTick"}>Google Maps widget</p>,
+                        <p className={styles.example + " noTick"}>YouTube or Vimeo videos</p>,
+                        <p className={styles.example + " noTick"}>Zapier, JotForms forms</p>,
+                        <p className={styles.example + " noTick"}>Getty Images, Unsplash stock imagery</p>,
                         <p>Custom iconography & infographics</p>,
                         <p>Google Business listing</p>,
-                        <p>Stock imagery</p>
                     ]
                 }
                 cost={2999}
@@ -54,9 +57,13 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Std + Beja Pro</span></p>,
                         <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
+                        <p className={styles.bold}>Advanced integrations</p>,
+                        <p className={styles.example + " noTick"}>PayPal, Stripe, Square payment</p>,
+                        <p className={styles.example + " noTick"}>Acuity, OpenTable, Calendly scheduling</p>,
+                        <p className={styles.example + " noTick"}>Google Analytics, MailChimp marketing</p>,
                         <p>Advanced custom CSS integration</p>,
-                        <p>Advanced integrations (e.g. payment, booking, mailing list)</p>,
-                        <p>Site copywriting</p>
+                        <p>Site copywriting</p>,
+                        <p>Custom email integration</p>
                     ]
                 }
                 cost={3999}

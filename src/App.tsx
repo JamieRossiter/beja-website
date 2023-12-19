@@ -9,6 +9,7 @@ import { Profile } from "./components/Profile/Profile";
 import { Packages } from "./containers/Packages/Packages";
 import { Contact } from "./containers/Contact/Contact";
 import { FAQs } from "./containers/FAQs/FAQs";
+import { Branding } from "./containers/Branding/Branding";
 import { Footer } from "./containers/Footer/Footer";
 import { PortfolioCarousel } from "./containers/PortfolioCarousel/PortfolioCarousel";
 
@@ -83,6 +84,9 @@ function App() {
       </div>
       <div id="packages" className={styles.packagesContainer}>
         <Packages scrollPos={scrollPosition} windowWidth={windowWidth} />
+      </div>
+      <div id="branding" className={styles.brandingContainer}>
+        <Branding />
       </div>
       <div id="contact" className={styles.contactContainer}>
         <Contact scrollPos={scrollPosition} />

@@ -11,7 +11,18 @@ export const PackageGraphic = (props: {
 }) => {
 
     const formatInclusions = (inclusions: Array<JSX.Element>) => {
-        return inclusions.map((inclusion: JSX.Element) => <li className={styles.listItem}><TiTick className={styles.listItemIcon} />{inclusion}</li>)
+        return inclusions.map((inclusion: JSX.Element) => {
+            let noTick: boolean = false;
+            if(inclusion.props.className){
+                noTick = inclusion.props.className.includes("noTick");
+            }
+            return (
+                <li className={styles.listItem}>
+                    <TiTick style={{display: noTick ? "none" : "block"}} className={styles.listItemIcon}/>
+                    {inclusion}
+                </li>
+            )
+        })
     }
 
     return(
