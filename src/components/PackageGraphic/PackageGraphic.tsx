@@ -34,12 +34,12 @@ export const PackageGraphic = (props: {
                 <div className={styles.headerContainer}>
                     <p className={styles.header}>{props.header}</p>
                 </div>
-                <div className={styles.descriptionContainer}>
+                {/* <div className={styles.descriptionContainer}>
                     <p className={styles.description}>{props.description}</p>
-                </div>
+                </div> */}
                 <div className={styles.graphicContainer}>
-                    <p className={styles.recommendationsHeader}>RECOMMENDED FOR:</p>
-                    <p className={styles.recommendations}>{props.recommendations}</p>
+                    {/* <p className={styles.recommendationsHeader}>RECOMMENDED FOR:</p> */}
+                    <p className={styles.recommendations}>{props.description}</p>
                 </div>
                 <div className={styles.inclusionListContainer}>
                         <ul className={styles.inclusionList}>

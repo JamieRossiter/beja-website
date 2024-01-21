@@ -8,18 +8,18 @@ export const Services = (props: { scrollPos: number }) => {
     const serviceGraphicContainer = [
         <div className={styles.serviceGraphicContainer}>
             <ServiceGraphic 
-                heading="We brand" 
-                text="Branding your business is step one to building a successful online identity. We work with you to develop a logo and style guide to kickstart your venture" 
-                color="#0150E8" 
-                imgName="brand" 
-            />
-        </div>,
-        <div className={styles.serviceGraphicContainer}>
-            <ServiceGraphic 
                 heading="We design"
                 text="We design to align with your brand, incorporating thoughtful iconography, typography and imagery. We focus on originality, and don’t rely on templates."
                 color="#FF0064CC" 
                 imgName="design" 
+            />
+        </div>,
+        <div className={styles.serviceGraphicContainer}>
+            <ServiceGraphic 
+                heading="We build"
+                text="We develop a functional and user-friendly website that you can easily edit and manage once our work is complete."
+                color="#FFBF4F"
+                imgName="build" 
             />
         </div>,
         <div className={styles.serviceGraphicContainer}>
@@ -32,12 +32,12 @@ export const Services = (props: { scrollPos: number }) => {
         </div>,
         <div className={styles.serviceGraphicContainer}>
             <ServiceGraphic 
-                heading="We build"
-                text="We develop a functional and user-friendly website that you can easily edit and manage once our work is complete."
-                color="#FFBF4F"
-                imgName="build" 
+                heading="We brand" 
+                text="Branding your business is step one to building a successful online identity. We work with you to develop a logo and style guide to kickstart your venture" 
+                color="#0150E8" 
+                imgName="brand" 
             />
-        </div>
+        </div>,
     ]
 
     return(

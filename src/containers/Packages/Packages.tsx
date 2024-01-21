@@ -8,7 +8,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
     const packages: Array<JSX.Element> = [
         <div className={styles.package}>
             <PackageGraphic 
-                description="Position your business on the digital map with a simple and modern website."
+                description="For a small, simple and impactful website."
                 tierNo={1}
                 header="Beja Standard"
                 inclusions={
@@ -29,7 +29,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
         <div className={styles.package}>
             <PackageGraphic 
                 tierNo={2}
-                description="Establish client confidence with a sleek and professional online presence."
+                description="For a bigger and more engaging website."
                 header="Beja Professional"
                 inclusions={
                     [
@@ -51,7 +51,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
         <div className={styles.package}>
             <PackageGraphic 
                 tierNo={3}
-                description="Elevate your business with the ultimate web and branding design package."
+                description="For the biggest, most feature-rich website."
                 header="Beja Complete"
                 inclusions={
                     [
@@ -62,7 +62,6 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                         <p className={styles.example + " noTick"}>Acuity, OpenTable, Calendly scheduling</p>,
                         <p className={styles.example + " noTick"}>Google Analytics, MailChimp marketing</p>,
                         <p>Advanced custom CSS integration</p>,
-                        <p>Site copywriting</p>,
                         <p>Custom email integration</p>
                     ]
                 }
