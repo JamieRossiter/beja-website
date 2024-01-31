@@ -16,17 +16,7 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
                 image="/img/benwerrin.webp"
                 testimonialText="Jamie and Belinda were responsive, reliable, and flexible to meet our needs with improved design and functionality. The new, up-to-date website they developed significantly increased enrolments, and the kinder continues to grow effortlessly."
             />
-        </>,
-        <>
-            <PortfolioItem  
-                client="Benwerrin Kindergarten"
-                project="Full website re-design"
-                testimonialName="Toni Lepore"
-                testimonialRole="Director, Benwerrin Kindergarten"
-                image="/img/benwerrin.webp"
-                testimonialText="Jamie and Belinda were responsive, reliable, and flexible to meet our needs with improved design and functionality. The new, up-to-date website they developed significantly increased enrolments, and the kinder continues to grow effortlessly."
-            />
-        </>,
+        </>
     ]
 
     return(

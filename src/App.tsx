@@ -86,7 +86,7 @@ function App() {
         <Packages scrollPos={scrollPosition} windowWidth={windowWidth} />
       </div>
       <div id="branding" className={styles.brandingContainer}>
-        <Branding />
+        <Branding windowWidth={windowWidth} />
       </div>
       <div id="contact" className={styles.contactContainer}>
         <Contact scrollPos={scrollPosition} />

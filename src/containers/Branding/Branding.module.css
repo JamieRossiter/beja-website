@@ -1,16 +1,29 @@
+.carouselContainer {
+    display: none;
+    width: 100%;
+}
+
+.parentContainer {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2em;
+}
+
 .headerContainer {
     margin-top: 3em;
     text-align: center;
 }
 
-.headerContainer .subheader {
-    margin-top: -0.5em;
+.subheader {
+    margin-top: -1em;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 0.8em;
     color: #FD3181;
 }
 
-.headerContainer .header {
+.header {
     font-size: 1.5em;
     font-style: italic;
     color: #FD3181;
@@ -51,25 +64,42 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .headerContainer .header {
+        font-size: 1.5em;
+    }
+
+    .carouselContainer {
+        display: block;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .parentContainer {
+        display: none;
+    }
 
 }
 
 @media only screen and (max-width: 510px) {
 
     .headerContainer {
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-
-    .headerContainer .subheader {
-        font-size: 1.2em;
-    }
     
-    .headerContainer .header {
-        font-size: 1.2em;
-        font-style: italic;
-        color: #FD3181;
+    .header {
+        display: none;
+    }
+
+    .subheader {
+        margin-top: 1em;
+        font-weight: bold;
+        font-size: 1.4em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .servicesContainer {

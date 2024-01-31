@@ -1,9 +1,33 @@
-.parentContainer {
-    width: 10em;
+.parentContainer p {
+    position: relative;
+    bottom: 3.5em;
+    color: #FD3181;
+    font-size: 0.9em;
     text-align: center;
 }
 
-.parentContainer p {
-    top: 2em;
-    color: #FD3181;
+.imageContainer img {
+    margin-top: -3.5em;
+    width: 100%;
+}
+
+@media only screen and (max-width: 965px) {
+
+    .parentContainer p {
+        font-size: 1em;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+
+    .imageContainer {
+        text-align: center;
+    }
+
+    .imageContainer img {
+        margin-top: -3.5em;
+        width: 10em;
+    }
+
 }
