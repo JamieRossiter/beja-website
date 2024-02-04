@@ -52,7 +52,7 @@ export const NavBar = (props: { scrollPos: number, windowWidth: number }) => {
         <>
             <div className={styles.parent}>
                 <div onClick={() => { document.body.scrollTo(0, 0) }} className={styles.logoContainer}>
-                    <img className={props.scrollPos > 200 && !isBurgerOpen ? styles.logoShow : styles.logoHide} src={process.env.PUBLIC_URL + "/img/beja_logo.webp"} />
+                    <img className={props.scrollPos > 200 && !isBurgerOpen ? styles.logoShow : styles.logoHide} src={process.env.PUBLIC_URL + "/img/beja_logo.jpg"} />
                 </div>
                 <div className={isBurgerOpen || !isBurgerActivated ? styles.containerOpen : styles.containerClose}>
                     <div className={isBurgerOpen ? styles.pagesOpen : styles.pagesClose }>

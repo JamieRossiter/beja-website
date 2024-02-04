@@ -20,13 +20,13 @@
 
 .textProject {
     font-weight: bold;
-    color: #0150E8;
+    color: #0057F0;
 }
 
 .testimonialContainer {
     width: 70%;
     margin: auto;
-    color: #0150E8;
+    color: #0057F0;
     margin-top: -0.5em;
     margin-bottom: 2em;
 }
@@ -42,7 +42,7 @@
 .testimonialText {
     background-color: #D9D9D933;
     padding: 1em;
-    border-left: #0150E8 solid 0.5em;
+    border-left: #0057F0 solid 0.5em;
 }
 
 .testimonialRole {

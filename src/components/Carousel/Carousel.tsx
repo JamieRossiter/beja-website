@@ -75,13 +75,13 @@ export const Carousel = (props: { content: Array<React.ReactElement>, color?: st
         <>
             <div className={styles.contentContainer}>
                 <div hidden={!props.arrows} className={styles.leftArrowContainer}>
-                    <img onClick={() => {navLeft(); setSwipeDirection("right");}} className={styles.leftArrow} src={process.env.PUBLIC_URL + "/img/chevron_left.webp"} />
+                    <img onClick={() => {navLeft(); setSwipeDirection("right");}} className={styles.leftArrow} src={process.env.PUBLIC_URL + "/img/chevron_left.jpg"} />
                 </div>
                 <div onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd} className={styles.carouselContainer}>
                     {containerizeContent()[contentIndex]}
                 </div>
                 <div hidden={!props.arrows} className={styles.rightArrowContainer}>
-                    <img onClick={() => {navRight(); setSwipeDirection("left");}} className={styles.rightArrow} src={process.env.PUBLIC_URL + "/img/chevron_right.webp"} />
+                    <img onClick={() => {navRight(); setSwipeDirection("left");}} className={styles.rightArrow} src={process.env.PUBLIC_URL + "/img/chevron_right.jpg"} />
                 </div>
             </div>
             <div className={styles.tabsContainer}>

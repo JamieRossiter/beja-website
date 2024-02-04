@@ -13,7 +13,8 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
                 project="Full website re-design"
                 testimonialName="Toni Lepore"
                 testimonialRole="Director, Benwerrin Kindergarten"
-                image="/img/benwerrin.webp"
+                image="/img/benwerrin"
+                url="https://www.benwerrinkindergarten.org.au"
                 testimonialText="Jamie and Belinda were responsive, reliable, and flexible to meet our needs with improved design and functionality. The new, up-to-date website they developed significantly increased enrolments, and the kinder continues to grow effortlessly."
             />
         </>
@@ -24,7 +25,7 @@ export const PortfolioCarousel = (props: { windowWidth: number }) => {
             <div className={styles.parent}>
                 <Carousel content={portfolioItems} arrows={props.windowWidth < 1200 ? false : true} />
                 <div className={styles.enquireNowContainer}>
-                    <Button text="Enquire Now" isPrimary bgColor="#FFBF4F" href="#contact" /> 
+                    <Button text="Enquire Now" isPrimary bgColor="#FFB80A" href="#contact" /> 
                 </div>
             </div>
         </>

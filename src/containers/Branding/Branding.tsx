@@ -43,7 +43,7 @@ export const Branding = (props: { windowWidth: number }) => {
                 <Carousel content={portfolioItems} color="#FD3181" />
             </div>
             <div className={styles.enquireNowContainer}>
-                <Button text="Enquire Now" isPrimary bgColor="#FD3181" href="#contact" />
+                <Button text="Enquire Now" isPrimary bgColor="#FF0082" href="#contact" />
             </div>
         </>
     )

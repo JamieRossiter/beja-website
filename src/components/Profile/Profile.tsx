@@ -28,8 +28,8 @@ export const Profile = (props:
             <div className={props.scrollPos > props.scrollPosTarget ? styles.superParentShow : styles.superParentHide}>
                 <div className={props.isInverted ? styles.parentInverted : styles.parent}>
                     <div className={styles.profileImgContainer}>
-                        <img className={styles.profileImg} src={process.env.PUBLIC_URL + `/${props.imgName}` + ".webp"} />
-                        <img className={styles.profileImgMobile} src={process.env.PUBLIC_URL + `/${props.imgName}` + ".webp"} />
+                        <img className={styles.profileImg} src={process.env.PUBLIC_URL + `/${props.imgName}` + ".jpg"} />
+                        <img className={styles.profileImgMobile} src={process.env.PUBLIC_URL + `/${props.imgName}` + ".jpg"} />
                     </div>
                     <div className={styles.copyContainer}>
                         <div className={styles.headerContainer}>

@@ -58,7 +58,7 @@ function App() {
           imgName="./img/belinda_headshot" 
           header="I'm Belinda" 
           subheader="the designer" 
-          color="#FD3181"
+          color="#FF0082"
           skills={["UX Design", "Graphic Comms"]}
           isInverted={false}
           scrollPosTarget={800}
@@ -70,7 +70,7 @@ function App() {
           imgName="./img/jamie_headshot" 
           header="And I'm Jamie" 
           subheader="the developer" 
-          color="#0150E8"
+          color="#0057F0"
           skills={["Web Development", "HTML, CSS, JS"]}
           isInverted={true}
           scrollPosTarget={1100}

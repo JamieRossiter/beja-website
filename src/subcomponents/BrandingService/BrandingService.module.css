@@ -1,9 +1,10 @@
 .parentContainer p {
     position: relative;
-    bottom: 3.5em;
+    bottom: 4em;
     color: #FD3181;
     font-size: 0.9em;
     text-align: center;
+    font-weight: bold;
 }
 
 .imageContainer img {

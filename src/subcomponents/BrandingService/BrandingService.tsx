@@ -5,7 +5,7 @@ export const BrandingService = (props: { imgName: string, caption: string }) => 
         <>
             <div className={styles.parentContainer}>
                 <div className={styles.imageContainer}>
-                    <img src={process.env.PUBLIC_URL + `/${props.imgName}` + ".webp"} />
+                    <img src={process.env.PUBLIC_URL + `/${props.imgName}` + ".png"} />
                 </div>
                 <p>{props.caption}</p>
             </div>

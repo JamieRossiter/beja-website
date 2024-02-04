@@ -17,16 +17,16 @@
 }
 
 .subheader {
-    margin-top: -1em;
+    margin-top: -0.5em;
     font-weight: bold;
-    font-size: 0.8em;
-    color: #FD3181;
+    font-size: 1.6em;
+    color: #FF0082;
 }
 
 .header {
     font-size: 1.5em;
     font-style: italic;
-    color: #FD3181;
+    color: #FF0082;
 }
 
 .enquireNowContainer {
