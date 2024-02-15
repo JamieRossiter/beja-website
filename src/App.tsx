@@ -55,7 +55,7 @@ function App() {
       </div>
       <div>
         <Profile 
-          imgName="./img/belinda_headshot" 
+          imgName="/img/belinda_headshot" 
           header="I'm Belinda" 
           subheader="the designer" 
           color="#FF0082"
@@ -67,7 +67,7 @@ function App() {
           A graduated graphic designer with a minor in UI and UX design. I have industry marketing experience under my belt and a passion for aesthetics and functional design. Here to design your dreams - big or small.
         </Profile>
         <Profile 
-          imgName="./img/jamie_headshot" 
+          imgName="/img/jamie_headshot" 
           header="And I'm Jamie" 
           subheader="the developer" 
           color="#0057F0"

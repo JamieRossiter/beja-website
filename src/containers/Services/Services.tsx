@@ -25,7 +25,7 @@ export const Services = (props: { scrollPos: number }) => {
         <div className={styles.serviceGraphicContainer}>
             <ServiceGraphic 
                 heading="We convert"
-                text="Need to elevate your brand and better engage your audience? We can give your old website a fresh new look by converting it into a modern SquareSpace site."
+                text="Need to elevate your brand and better engage your audience? We can give your old website a fresh new look by converting it into a modern site."
                 color="#FF4642" 
                 imgName="convert" 
             />

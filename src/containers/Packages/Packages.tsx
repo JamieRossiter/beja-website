@@ -15,10 +15,12 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p>Up to <span className={styles.bold}>4</span> custom designed pages</p>,
                         <p>Mobile and tablet responsive</p>,
+                        <p className={styles.bold}>Basic integrations</p>,
+                        <p className={styles.example + " noTick"}>Google Maps widget</p>,
+                        <p className={styles.example + " noTick"}>YouTube, Vimeo, Facebook videos</p>,
+                        <p className={styles.example + " noTick"}>Instagram, Facebook, Tiktok posts</p>,
                         <p>Original web concept and ideation</p>,
                         <p>Domain and hosting</p>,
-                        <p>Basic SEO implementation</p>,
-                        <p>Social media integration</p>,
                         <p>Site handover session</p>
                     ]
                 }
@@ -35,12 +37,12 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                     [
                         <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Standard</span></p>,
                         <p>Up to <span className={styles.bold}>8</span> custom designed pages</p>,
-                        <p className={styles.bold}>Basic integrations</p>,
-                        <p className={styles.example + " noTick"}>Google Maps widget</p>,
-                        <p className={styles.example + " noTick"}>YouTube or Vimeo videos</p>,
-                        <p className={styles.example + " noTick"}>Zapier, JotForms forms</p>,
-                        <p className={styles.example + " noTick"}>Getty Images, Unsplash stock imagery</p>,
+                        <p className={styles.bold}>Pro integrations</p>,
+                        <p className={styles.example + " noTick"}>JotForm, Google Forms, custom forms</p>,
+                        <p className={styles.example + " noTick"}>OpenTable, Calendly scheduling</p>,
+                        <p className={styles.example + " noTick"}>Blog posts with CMS implementation</p>,
                         <p>Custom iconography & infographics</p>,
+                        <p>Basic custom CSS integration</p>,
                         <p>Google Business listing</p>,
                     ]
                 }
@@ -58,8 +60,9 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                         <p><span className={`${styles.emphasis} ${styles.bold}`}>Everything in Beja Std + Beja Pro</span></p>,
                         <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
                         <p className={styles.bold}>Advanced integrations</p>,
+                        <p className={styles.example + " noTick"}>Ecommerce, shop and product pages</p>,
+                        <p className={styles.example + " noTick"}>Advanced SEO implementation</p>,
                         <p className={styles.example + " noTick"}>PayPal, Stripe, Square payment</p>,
-                        <p className={styles.example + " noTick"}>Acuity, OpenTable, Calendly scheduling</p>,
                         <p className={styles.example + " noTick"}>Google Analytics, MailChimp marketing</p>,
                         <p>Advanced custom CSS integration</p>,
                         <p>Custom email integration</p>
