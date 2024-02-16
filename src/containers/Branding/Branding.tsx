@@ -4,7 +4,7 @@ import { Button } from "../../subcomponents/Button/Button";
 import styles from "./Branding.module.css";
 
 
-export const Branding = (props: { windowWidth: number }) => {
+export const Branding = (props: { windowWidth: number, scrollPos: number }) => {
 
     const portfolioItems = [
         <div className={styles.brandingServiceContainer}>
@@ -23,27 +23,29 @@ export const Branding = (props: { windowWidth: number }) => {
 
     return(
         <>
-            <div className={styles.headerContainer}>
-                <h2 className={styles.header}>Need a brand refresh?</h2>
-                <h2 className={styles.subheader}>We offer branding services too.</h2>
-            </div>
-            <div className={styles.parentContainer}>
-                <div className={styles.servicesContainer}>
-                    <div className={styles.servicesSubcontainer}>
-                        {portfolioItems[0]}
-                        {portfolioItems[1]}
-                    </div>
-                    <div className={styles.servicesSubcontainer}>
-                        {portfolioItems[2]}
-                        {portfolioItems[3]}
+            <div className={props.scrollPos > 3800 ? styles.containerShow : styles.containerHide}>
+                <div className={styles.headerContainer}>
+                    <h2 className={styles.header}>Need a brand refresh?</h2>
+                    <h2 className={styles.subheader}>We offer branding services too.</h2>
+                </div>
+                <div className={styles.parentContainer}>
+                    <div className={styles.servicesContainer}>
+                        <div className={styles.servicesSubcontainer}>
+                            {portfolioItems[0]}
+                            {portfolioItems[1]}
+                        </div>
+                        <div className={styles.servicesSubcontainer}>
+                            {portfolioItems[2]}
+                            {portfolioItems[3]}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className={styles.carouselContainer}>
-                <Carousel content={portfolioItems} color="#FD3181" />
-            </div>
-            <div className={styles.enquireNowContainer}>
-                <Button text="Enquire Now" isPrimary bgColor="#FF0082" href="#contact" />
+                <div className={styles.carouselContainer}>
+                    <Carousel content={portfolioItems} color="#FD3181" />
+                </div>
+                <div className={styles.enquireNowContainer}>
+                    <Button text="Enquire Now" isPrimary bgColor="#FF0082" href="#contact" />
+                </div>
             </div>
         </>
     )

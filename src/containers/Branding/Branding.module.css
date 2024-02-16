@@ -1,3 +1,13 @@
+.containerShow {
+    opacity: 1;
+    animation: fadeIn 1s;
+}
+
+.containerHide {
+    opacity: 0;
+    animation: fadeOut 1s;
+}
+
 .carouselContainer {
     display: none;
     width: 100%;
@@ -120,4 +130,22 @@
         margin-top: 3em;
     }
 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
