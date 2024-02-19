@@ -61,7 +61,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                         <p>Up to <span className={styles.bold}>12</span> custom designed pages</p>,
                         <p className={styles.bold}>Advanced integrations</p>,
                         <p className={styles.example + " noTick"}>Ecommerce, shop and product pages</p>,
-                        <p className={styles.example + " noTick"}>Advanced SEO implementation</p>,
+                        <p className={styles.example + " noTick"}>SEO implementation and considerations</p>,
                         <p className={styles.example + " noTick"}>PayPal, Stripe, Square payment</p>,
                         <p className={styles.example + " noTick"}>Google Analytics, MailChimp marketing</p>,
                         <p>Advanced custom CSS integration</p>,

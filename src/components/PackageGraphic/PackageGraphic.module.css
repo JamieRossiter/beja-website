@@ -61,7 +61,7 @@
 }
 
 .recommendationsHeader, .recommendations {
-    font-size: 0.7em;
+    font-size: 0.8em;
     position: relative;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -71,11 +71,11 @@
 
 .recommendationsHeader {
     font-weight: bold;
-    top: 1.5em;
+    top: 1.3em;
 }
 
 .recommendations {
-    top: 0.6em;
+    top: 0.4em;
     width: 70%;
     margin: auto;
 }
@@ -139,8 +139,9 @@
     }
 
     .recommendations {
-        font-size: 0.6em;
         left: 0em;
+        width: 70%;
+        margin: auto;
     }
 
     .recommendationsHeader {
@@ -216,9 +217,10 @@
     }
 
     .recommendations {
-        top: 0.8em;
+        top: 0.5em;
         left: 0em;
         margin: auto;
+        font-size: 0.7em;
         /* width: 90%; */
     }
 
@@ -234,7 +236,7 @@
     }
 
     .inclusionList li p {
-        font-size: 0.55em;
+        font-size: 0.6em;
         margin-top: -0.9em;
         padding-top: 0.5em;
     }
