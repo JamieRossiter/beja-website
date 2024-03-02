@@ -52,7 +52,9 @@
 @media only screen and (max-width: 1150px) {
 
     .example {
-        padding-left: 2.5em;
+        text-align: left;
+        width: 70%;
+        padding-left: 2.2em;
     }
 
 }
@@ -69,10 +71,6 @@
 
     .carouselContainer {
         display: block;
-    }
-
-    .example {
-        padding-left: 2.2em;
     }
 
 }

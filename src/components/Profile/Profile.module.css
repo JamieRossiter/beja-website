@@ -34,7 +34,7 @@
 
 .parentInverted {
     flex-direction: row-reverse;
-    /* background-color: #D9D9D933; */
+    background-color: #F7F7F7;
 }
 
 .copyContainer {

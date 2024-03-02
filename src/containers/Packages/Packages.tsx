@@ -20,7 +20,7 @@ export const Packages = (props: { scrollPos: number, windowWidth: number }) => {
                         <p className={styles.example + " noTick"}>YouTube, Vimeo, Facebook videos</p>,
                         <p className={styles.example + " noTick"}>Instagram, Facebook, Tiktok posts</p>,
                         <p>Original web concept and ideation</p>,
-                        <p>Domain and hosting</p>,
+                        <p>Domain and hosting set up</p>,
                         <p>Site handover session</p>
                     ]
                 }

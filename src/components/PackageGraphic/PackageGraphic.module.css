@@ -161,7 +161,7 @@
 @media only screen and (max-width: 820px) {
 
     .parent {
-        width: 13em;
+        /* width: 13em; */
         margin: auto;
     }
 
@@ -198,7 +198,7 @@
     }
 
     .costContainer {
-        margin-top: 6.5em;
+        margin-top: 9em;
     }
 
     .costHeader {
@@ -219,13 +219,14 @@
     .recommendations {
         top: 0.5em;
         left: 0em;
+        padding-left: 0em;
         margin: auto;
         font-size: 0.7em;
-        /* width: 90%; */
+        width: 100%;
     }
 
     .inclusionList {
-        padding-left: 1em;
+        /* padding-left: 1em; */
         text-align: center;
     }
 

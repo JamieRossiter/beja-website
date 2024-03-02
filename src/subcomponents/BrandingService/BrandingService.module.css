@@ -1,7 +1,7 @@
 .parentContainer p {
     position: relative;
     bottom: 4em;
-    color: #FD3181;
+    color: #FF0082;
     font-size: 0.9em;
     text-align: center;
     font-weight: bold;
@@ -13,10 +13,10 @@
 }
 
 @media only screen and (max-width: 965px) {
-
+    
     .parentContainer p {
         font-size: 1em;
-        width: 50%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 1em;
