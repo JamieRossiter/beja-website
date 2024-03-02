@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/beja-website/static/css/main.f8a20294.css",
-    "main.js": "/beja-website/static/js/main.3a6cc071.js",
+    "main.css": "/beja-website/static/css/main.1c0c6deb.css",
+    "main.js": "/beja-website/static/js/main.d7523415.js",
     "index.html": "/beja-website/index.html",
-    "main.f8a20294.css.map": "/beja-website/static/css/main.f8a20294.css.map",
-    "main.3a6cc071.js.map": "/beja-website/static/js/main.3a6cc071.js.map"
+    "main.1c0c6deb.css.map": "/beja-website/static/css/main.1c0c6deb.css.map",
+    "main.d7523415.js.map": "/beja-website/static/js/main.d7523415.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a20294.css",
-    "static/js/main.3a6cc071.js"
+    "static/css/main.1c0c6deb.css",
+    "static/js/main.d7523415.js"
   ]
 }
